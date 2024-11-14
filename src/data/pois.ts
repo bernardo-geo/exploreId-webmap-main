@@ -1237,7 +1237,7 @@ export const pois: POI[] = [
     id: 'visita-2',
     project: '0',
     name: 'Templo Ecuménico Universalista',
-    description: 'Mais do que um restaurante, uma experiência. O Restaurante Xisto é um dos espaços gastronómicos que mais se destaca ...',
+    description: 'Não passando despercebido na paisagem, o Templo Ecuménico Universalista destaca-se pela sua arquitetura e beleza, despertando a curiosidade daqueles que o observam no topo da colina, por e ...',
     url: 'https://exploreid.pt/portfolio-item/templo-ecumenico-universalista/',
     category: 'visitar',
     image: '/icons/img_poi/villa-chanca.png',
