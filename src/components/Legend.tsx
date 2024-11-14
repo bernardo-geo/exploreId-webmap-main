@@ -27,7 +27,7 @@ interface CategoryGroupState {
 }
 
 export default function Legend({
-  //categoryIcons,
+  categoryIcons,
   selectedCategories,
   toggleCategory,
   selectedRoutes,
@@ -38,8 +38,8 @@ export default function Legend({
   setSelectedBaseMap,
   clearPOIs,
   clearRoutes,
-  //showMoedaId,
-  //setShowMoedaId,
+  showMoedaId,
+  setShowMoedaId,
   isMobile
 }: LegendProps) {
   const [expandedGroups, setExpandedGroups] = useState<CategoryGroupState>({
@@ -134,7 +134,7 @@ export default function Legend({
       {/* Categories */}
       <div className="space-y-2">
         <div className="flex items-center justify-between mb-2">
-          <h4 className="text-xs font-medium text-gray-800">Categorias</h4>
+          <h4 className="text-xs font-bold text-gray-800">Categorias</h4>
           <div className="flex items-center gap-1.5">
             {selectedCategories.size > 0 && (
               <button
@@ -161,7 +161,7 @@ export default function Legend({
       {/* Routes */}
       <div className="space-y-2">
         <div className="flex items-center justify-between mb-2">
-          <h4 className="text-xs font-medium text-gray-800">Rotas</h4>
+          <h4 className="text-xs font-bold text-gray-800">Rotas</h4>
           {selectedRoutes.size > 0 && (
             <button
               onClick={clearRoutes}

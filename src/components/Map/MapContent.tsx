@@ -40,8 +40,8 @@ export default function MapContent({
       {locationError && <LocationToast message={locationError} onClose={() => setLocationError(null)} />}
       
       <MapContainer
-        center={[40.0411, -8.354]}
-        zoom={10}
+        center={[39.999, -8.464]}
+        zoom={10.5}
         style={{ height: '100%', width: '100%' }}
         className="h-full w-full"
         ref={mapRef}

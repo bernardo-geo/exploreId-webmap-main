@@ -48,9 +48,9 @@ export default function MapSidebar({
   setSelectedBaseMap,
   clearPOIs,
   clearRoutes,
-  /*previousCategories,
-  setSelectedCategories*/
-  /*
+  previousCategories,
+  setSelectedCategories
+
 }: MapSidebarProps) {
   return (
     <div
@@ -194,5 +194,4 @@ export default function MapSidebar({
       )}
     </div>
   );
-}
-*/
+}*/

@@ -1,4 +1,4 @@
-/*import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Marker, Popup, useMap } from 'react-leaflet';
 import * as L from 'leaflet';
 
@@ -46,4 +46,4 @@ export default function LocationTracker() {
       <Popup>Você está aqui</Popup>
     </Marker>
   );
-}*/
+}

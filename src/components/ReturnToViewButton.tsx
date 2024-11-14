@@ -5,7 +5,7 @@ export default function ReturnToViewButton() {
   const map = useMap();
 
   const handleReturn = () => {
-    map.setView([40.0411, -8.354], 10);
+    map.setView([39.999, -8.464], 10.5);
   };
 
   return (
