@@ -84,7 +84,7 @@ export const categories: CategoryConfig[] = [
     name: 'Espeleologia',
     description: 'Espeleologia',
     icon: '/icons/Espeleologia.png',
-    group: 'aderente'
+    group: 'ponto-interesse'
   },
   {
     id: 'grutas e buracas',
@@ -133,7 +133,7 @@ export const categories: CategoryConfig[] = [
     name: 'Passadiços',
     description: 'Passadiços',
     icon: '/icons/icone-passadiços.png',
-    group: 'aderente'
+    group: 'ponto-interesse'
   },
   {
     id: 'património mundial',
@@ -161,7 +161,7 @@ export const categories: CategoryConfig[] = [
     name: 'Queijarias',
     description: 'Queijarias',
     icon: '/icons/Queijarias.png',
-    group: 'ponto-interesse'
+    group: 'aderente'
   },
   {
     id: 'restaurantes',
