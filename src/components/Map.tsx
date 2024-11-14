@@ -169,7 +169,7 @@ function Map() {
         className={`
           fixed bg-white shadow-xl transition-all duration-300 z-[1000]
           ${isMobile 
-            ? `bottom-0 left-0 right-0 rounded-t-xl ${isSidebarOpen ? 'h-[40vh]' : 'h-12'}`
+            ? `bottom-0 left-0 right-0 rounded-t-xl ${isSidebarOpen ? 'h-[50vh]' : 'h-12'}`
             : `top-0 h-full ${isSidebarOpen ? 'w-[280px] left-0' : 'w-[40px] left-0'}`
           }
         `}
