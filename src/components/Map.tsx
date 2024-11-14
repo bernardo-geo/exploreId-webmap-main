@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Tooltip,/* useMap,*/ AttributionControl } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Tooltip, useMap, AttributionControl } from 'react-leaflet';
 import * as L from 'leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { ChevronDown, ChevronUp, Navigation, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
@@ -15,7 +15,7 @@ import FullscreenControl from './FullscreenControl';
 import ReturnToViewButton from './ReturnToViewButton';
 import LocationToast from './LocationToast';
 
-/*function LocationTracker() {
+function LocationTracker() {
   const map = useMap();
   const [position, setPosition] = useState<GeolocationPosition | null>(null);
   const watchId = useRef<number | null>(null);
@@ -59,7 +59,7 @@ import LocationToast from './LocationToast';
       <Popup>Você está aqui</Popup>
     </Marker>
   );
-}*/
+}
 
 function Map() {
   const [selectedCategories, setSelectedCategories] = useState<Set<POICategory>>(
@@ -169,7 +169,7 @@ function Map() {
         className={`
           fixed bg-white shadow-xl transition-all duration-300 z-[1000]
           ${isMobile 
-            ? `bottom-0 left-0 right-0 rounded-t-xl ${isSidebarOpen ? 'h-[25vh]' : 'h-12'}`
+            ? `bottom-0 left-0 right-0 rounded-t-xl ${isSidebarOpen ? 'h-[40vh]' : 'h-12'}`
             : `top-0 h-full ${isSidebarOpen ? 'w-[280px] left-0' : 'w-[40px] left-0'}`
           }
         `}
@@ -182,12 +182,12 @@ function Map() {
                 transition-colors rounded-t-xl"
             >
               <span className="text-base font-semibold text-gray-800">
-                Controlos do Mapa
+                Interações no Mapa
               </span>
               {isSidebarOpen ? (
-                <ChevronDown className="text-gray-600" size={18} />
+                <ChevronDown className="text-gray-600" size={20} />
               ) : (
-                <ChevronUp className="text-gray-600" size={18} />
+                <ChevronUp className="text-gray-600" size={20} />
               )}
             </button>
 
@@ -270,7 +270,7 @@ function Map() {
             <div className="flex items-center justify-between p-3 border-b bg-white">
               {isSidebarOpen ? (
                 <>
-                  <span className="text-base font-semibold text-gray-800">Controlos do Mapa</span>
+                  <span className="text-base font-semibold text-gray-800">Interações no Mapa</span>
                   <button
                     onClick={() => setIsSidebarOpen(false)}
                     className="p-1.5 hover:bg-gray-100 rounded-lg transition-colors"

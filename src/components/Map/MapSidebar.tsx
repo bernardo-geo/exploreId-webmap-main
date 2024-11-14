@@ -70,7 +70,7 @@ export default function MapSidebar({
               transition-colors rounded-t-xl"
           >
             <span className="text-base font-semibold text-gray-800">
-              Controlos do Mapa
+              Interções no Mapa
             </span>
             {isSidebarOpen ? (
               <ChevronDown className="text-gray-600" size={18} />
@@ -128,7 +128,7 @@ export default function MapSidebar({
           <div className="flex items-center justify-between p-3 border-b bg-white">
             {isSidebarOpen ? (
               <>
-                <span className="text-base font-semibold text-gray-800">Controlos do Mapa</span>
+                <span className="text-base font-semibold text-gray-800">Interações no Mapa</span>
                 <button
                   onClick={() => setIsSidebarOpen(false)}
                   className="p-1.5 hover:bg-gray-100 rounded-lg transition-colors"

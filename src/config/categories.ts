@@ -84,7 +84,7 @@ export const categories: CategoryConfig[] = [
     name: 'Espeleologia',
     description: 'Espeleologia',
     icon: '/icons/Espeleologia.png',
-    group: 'ponto-interesse'
+    group: 'aderente'
   },
   {
     id: 'grutas e buracas',

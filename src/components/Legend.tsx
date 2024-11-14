@@ -112,7 +112,7 @@ export default function Legend({
     <div className={`space-y-3 p-3 ${isMobile ? 'pb-20' : ''}`}>
       {/* Base Maps */}
       <div className="mb-3">
-        <h4 className="text-xs font-bold text-gray-800 mb-2">Mapa base</h4>
+        <h4 className="text-xs font-bold text-gray-800 mb-2">Tipo de Mapa</h4>
         <div className="grid grid-cols-3 gap-1">
           {Object.entries(baseMaps).map(([key, _]) => (
             <button
