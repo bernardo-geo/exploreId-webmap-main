@@ -1,4 +1,4 @@
-/*import { ChevronDown, ChevronUp, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
+import { ChevronDown, ChevronUp, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
 import { POICategory } from '../../types/poi';
 import { BaseMaps } from '../../types/map';
 import SearchBar from '../SearchBar';
@@ -194,4 +194,4 @@ export default function MapSidebar({
       )}
     </div>
   );
-}*/
+}

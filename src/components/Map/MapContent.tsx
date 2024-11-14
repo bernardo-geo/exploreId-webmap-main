@@ -1,4 +1,4 @@
-/*import { Navigation } from 'lucide-react';
+import { Navigation } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Tooltip, AttributionControl } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import { POI } from '../../types/poi';
@@ -112,4 +112,4 @@ export default function MapContent({
       </MapContainer>
     </div>
   );
-}*/
+}
