@@ -50,10 +50,28 @@
 }
 
 .leaflet-popup-close-button {
-  padding: 8px !important;
-  color: #666 !important;
-  font-size: 20px !important;
-  z-index: 10 !important;
+  background-color: #000000; /* Cor de fundo */
+    border: 2px solid #000000; /* Borda circular */
+    border-radius: 50%; /* Faz o botão ser redondo */
+    color: #000000; /* Cor do ícone "X" */
+    width: 24px; /* Largura do botão */
+    height: 24px; /* Altura do botão */
+    line-height: 20px; /* Centraliza o "X" */
+    text-align: center; /* Alinha o texto */
+    font-size: 14px; /* Tamanho do ícone */
+    cursor: pointer; /* Mostra o cursor como "mãozinha" */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.199); /* Sombra ao redor */
+    transition: background-color 0.8s ease, color 0.8s ease; /* Efeito suave ao interagir */
+}
+
+.leaflet-popup-close-button:hover {
+  background-color: #d41010; /* Cor ao passar o mouse */
+  color: #c4162d; /* Cor do "X" no hover */
+}
+
+.leaflet-popup-close-button:focus {
+  outline: none; /* Remove o contorno ao focar */
+  box-shadow: 0 0 8px rgba(0, 120, 212, 0.5); /* Destaque no foco */
 }
 
 /* Custom tooltip styling */
@@ -211,27 +229,27 @@
 
 /* Cluster marker styles */
 .marker-cluster-small {
-  background-color: rgba(181, 226, 140, 0.6);
+  background-color: rgba(184, 219, 252, 0.6);
 }
 
 .marker-cluster-small div {
-  background-color: rgba(110, 204, 57, 0.6);
+  background-color: rgba(135, 204, 245, 0.6);
 }
 
 .marker-cluster-medium {
-  background-color: rgba(241, 211, 87, 0.6);
+  background-color: rrgba(184, 219, 252, 0.6);
 }
 
 .marker-cluster-medium div {
-  background-color: rgba(240, 194, 12, 0.6);
+  background-color: rgba(147, 208, 243, 0.6);
 }
 
 .marker-cluster-large {
-  background-color: rgba(253, 156, 115, 0.6);
+  background-color: rgba(184, 219, 252, 0.6);
 }
 
 .marker-cluster-large div {
-  background-color: rgba(241, 128, 23, 0.6);
+  background-color: rgba(147, 208, 243, 0.6);
 }
 
 /* Location marker */

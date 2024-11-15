@@ -29,7 +29,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário dos Casais da Granja é um lugar guardado pelo monte dos Moinhos do Outeiro, onde os caminhos de ...',
     url: 'https://exploreid.pt/portfolio-item/casais-da-granja/',
     category: 'aldeias de calcário',
-    image: '/icons/aldeia-de-Poios.png',
+    image: '/icons/img_poi/canva-teste.png',
     coordinates: [39.95520944164655, -8.460324169531289],
   },
   {
@@ -71,7 +71,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto de Casal de São Simão, em Figueiró dos Vinhos, mostra a beleza da ruralidade aliada à serenidade da ...',
     url: 'https://exploreid.pt/portfolio-item/casal-de-sao-simao-2/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1555881400-891c0135a100?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/casal-sao-simao.png',
     coordinates: [39.91694252283582, -8.322288984980627],
   },
   {
@@ -519,7 +519,7 @@ export const pois: POI[] = [
     description: 'Na região das Terras de Sicó, conhecida por produzir vinhos encorpados, frescos e leves, a Encosta da Criveira desempenha um papel ...',
     url: 'https://exploreid.pt/portfolio-item/encosta-da-criveira/',
     category: 'enoturismo',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: '/icons/img_poi/canva-teste.png',
     coordinates: [40.02910286811458, -8.391404153485045],
     hasMoedaId: true
   },  
