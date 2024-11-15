@@ -49,7 +49,7 @@ export const pois: POI[] = [
     description: 'A estrada serpenteada conduz-nos até um local onde a altitude é a melhor aliada, oferecendo paisagens estonteantes ...',
     url: 'https://exploreid.pt/portfolio-item/chanca/',
     category: 'aldeias de calcário',
-    image: '/icons/img_poi/chanca teste.png',
+    image: '/icons/img_poi/Chanca teste.png',
     coordinates: [40.0412738204997, -8.471309041672557],
   },
   {
@@ -225,7 +225,7 @@ export const pois: POI[] = [
     description: 'Feita de memórias e histórias, que os seus carismáticos proprietários não se cansam de contar...',
     url: 'https://exploreid.pt/portfolio-item/villa-chanca/',
     category: 'alojamento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: '/icons/img_poi/Chanca teste.png',
     coordinates: [40.041846433474056, -8.471386799458067],
     hasMoedaId: true,
   },
