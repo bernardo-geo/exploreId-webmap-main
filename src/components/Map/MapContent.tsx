@@ -9,7 +9,7 @@ import FullscreenControl from '../FullscreenControl';
 import ReturnToViewButton from '../ReturnToViewButton';
 import POIPopup from '../POIPopup';
 import LocationToast from '../LocationToast';
-import { MutableRefObject } from 'react';
+import { MutableRefObject, useEffect } from 'react';
 import * as L from 'leaflet';
 
 interface MapContentProps {
@@ -35,8 +35,39 @@ export default function MapContent({
   toggleLocationTracking,
   filteredPOIs
 }: MapContentProps) {
+  // Handle iOS-specific touch events
+  useEffect(() => {
+    const preventScroll = (e: TouchEvent) => {
+      if (e.touches.length > 1) {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener('touchmove', preventScroll, { passive: false });
+    return () => {
+      document.removeEventListener('touchmove', preventScroll);
+    };
+  }, []);
+
+  // Handle iOS Safari viewport height issues
+  useEffect(() => {
+    const resizeHeight = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    resizeHeight();
+    window.addEventListener('resize', resizeHeight);
+    window.addEventListener('orientationchange', resizeHeight);
+
+    return () => {
+      window.removeEventListener('resize', resizeHeight);
+      window.removeEventListener('orientationchange', resizeHeight);
+    };
+  }, []);
+
   return (
-    <div className={`absolute inset-0 ${isMobile ? 'pb-12' : ''}`}>
+    <div className={`absolute inset-0 ${isMobile ? 'pb-12' : ''}`} style={{ height: 'calc(var(--vh, 1vh) * 100)' }}>
       {locationError && <LocationToast message={locationError} onClose={() => setLocationError(null)} />}
       
       <MapContainer
@@ -47,6 +78,10 @@ export default function MapContent({
         ref={mapRef}
         zoomControl={false}
         attributionControl={false}
+        touchZoom={true}
+        tap={true}
+        dragging={true}
+        doubleClickZoom={true}
       >
         <TileLayer
           url={baseMaps[selectedBaseMap].url}
@@ -67,14 +102,14 @@ export default function MapContent({
           <button
             onClick={toggleLocationTracking}
             className={`
-              w-10 h-10 bg-white rounded-xl shadow-lg flex items-center 
-              justify-center hover:bg-gray-50 focus:outline-none focus:ring-2 
-              focus:ring-blue-500 transition-colors
+              w-11 h-11 bg-white rounded-xl shadow-lg flex items-center 
+              justify-center active:bg-gray-100 focus:outline-none focus:ring-2 
+              focus:ring-blue-500 transition-colors touch-manipulation
               ${isTracking ? 'text-blue-500' : 'text-gray-600'}
             `}
             title="Track my location"
           >
-            <Navigation size={20} className={isTracking ? 'text-blue-500' : ''} />
+            <Navigation size={24} className={isTracking ? 'text-blue-500' : ''} />
           </button>
         </div>
 
@@ -86,6 +121,8 @@ export default function MapContent({
           disableClusteringAtZoom={25}
           spiderfyOnMaxZoom={true}
           showCoverageOnHover={false}
+          zoomToBoundsOnClick={true}
+          animate={true}
         >
           {filteredPOIs.map((poi) => (
             <Marker
@@ -103,6 +140,7 @@ export default function MapContent({
                 direction="top" 
                 offset={[0, -20]} 
                 opacity={1}
+                permanent={false}
               >
                 {poi.name}
               </Tooltip>

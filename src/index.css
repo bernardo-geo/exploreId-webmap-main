@@ -2,11 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* iOS-specific styles */
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+  
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* Prevent elastic scrolling on iOS */
+html, body {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Leaflet container */
 .leaflet-container {
   width: 100%;
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* iOS-optimized touch targets */
+.leaflet-control-zoom a,
+.leaflet-control button,
+.leaflet-popup-close-button {
+  min-width: 44px !important;
+  min-height: 44px !important;
+  line-height: 44px !important;
+  font-size: 18px !important;
 }
 
 /* Attribution Control */
@@ -23,8 +56,49 @@
   margin: 0 18px 8px 8px !important;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
   color: #666 !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
+/* Custom popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  padding: 0;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* iOS-optimized scrolling */
+.overflow-y-auto {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent text selection on iOS */
+.leaflet-container,
+.leaflet-control,
+button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Improved touch feedback */
+@media (hover: none) {
+  .hover\:bg-gray-50:active,
+  .hover\:bg-gray-100:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.1s;
+  }
+}
+
+/* Rest of the existing styles */
 .leaflet-control-attribution a {
   color: #4B5563 !important;
   text-decoration: none !important;
@@ -36,35 +110,15 @@
   color: #1f3537 !important;
 }
 
-/* Custom popup styling */
-.leaflet-popup-content-wrapper {
-  border-radius: 8px;
-  padding: 0;
-  overflow: hidden;
-}
-
-.leaflet-popup-content {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: auto !important;
-}
-
-.leaflet-popup-close-button {
-  padding: 8px !important;
-  color: #666 !important;
-  font-size: 20px !important;
-  z-index: 10 !important;
-}
-
 /* Custom tooltip styling */
 .leaflet-tooltip {
-  padding: 4px 8px !important;
-  font-size: 12px !important;
+  padding: 8px 12px !important;
+  font-size: 14px !important;
   font-weight: 500 !important;
   white-space: nowrap !important;
   background-color: white !important;
   border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  border-radius: 4px !important;
+  border-radius: 8px !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -81,9 +135,9 @@
 .leaflet-control-zoom a {
   background-color: white !important;
   color: #666 !important;
-  width: 32px !important;
-  height: 32px !important;
-  line-height: 32px !important;
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
   font-size: 18px !important;
   border: none !important;
 }
@@ -97,11 +151,6 @@
 .leaflet-control-zoom a:last-child {
   border-bottom-left-radius: 8px !important;
   border-bottom-right-radius: 8px !important;
-}
-
-.leaflet-control-zoom a:hover {
-  background-color: #f8f8f8 !important;
-  color: #333 !important;
 }
 
 /* Map controls positioning */
@@ -160,42 +209,10 @@
   }
 }
 
-/* Attribution Control */
-@media (max-width: 677px) {
-  .leaflet-control-attribution {
-  background-color: rgba(255, 255, 255, 0.9) !important;
-  padding: 4px 8px !important;
-  border-radius: 4px !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-size: 11px !important;
-  max-width: 90% !important;
-  white-space: nowrap !important;
-  overflow: hidden !important;
-  text-overflow: ellipsis !important;
-  margin: 0 18px 0px 8px !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
-  color: #666 !important;
-  position: fixed;
-  top: 10px !important;
-  right: 12px !important;
-  margin: 0 !important;
-  }
-
-.leaflet-control-attribution a {
-  color: #4B5563 !important;
-  text-decoration: none !important;
-  font-weight: 500 !important;
-  }
-
-.leaflet-control-attribution a:hover {
-  text-decoration: underline !important;
-  color: #1f3537 !important;
-  }
-}
-
 /* Root container */
 #root {
   height: 100vh;
+  height: -webkit-fill-available;
   width: 100vw;
 }
 
