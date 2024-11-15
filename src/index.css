@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* iOS-specific styles */
+@supports (-webkit-touch-callout: none) {
+  .leaflet-container {
+    cursor: default !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .leaflet-marker-icon {
+    cursor: pointer !important;
+  }
+
+  .leaflet-control-zoom a {
+    cursor: pointer !important;
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Attribution Control */
+.leaflet-control-attribution {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding: 4px 8px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  font-size: 11px !important;
+  max-width: 90% !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  margin: 0 18px 8px 8px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  color: #666 !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.leaflet-control-attribution a {
+  color: #4B5563 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+.leaflet-control-attribution a:hover {
+  text-decoration: underline !important;
+  color: #1f3537 !important;
+}
+
+/* Custom popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+}
+
+.leaflet-popup-close-button {
+  padding: 8px !important;
+  color: #666 !important;
+  font-size: 20px !important;
+  z-index: 10 !important;
+}
+
+/* Custom tooltip styling */
+.leaflet-tooltip {
+  padding: 4px 8px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  white-space: nowrap !important;
+  background-color: white !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: white !important;
+}
+
+/* Custom zoom controls */
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3) !important;
+}
+
+.leaflet-control-zoom a {
+  background-color: white !important;
+  color: #666 !important;
+  width: 32px !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  font-size: 18px !important;
+  border: none !important;
+  touch-action: manipulation;
+}
+
+.leaflet-control-zoom a:first-child {
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+.leaflet-control-zoom a:last-child {
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #f8f8f8 !important;
+  color: #333 !important;
+}
+
+/* Map controls positioning */
+.leaflet-control-fullscreen,
+.leaflet-control-return {
+  position: absolute !important;
+}
+
+@media (min-width: 678px) {
+  .leaflet-control-fullscreen,
+  .leaflet-control-return {
+    top: 12px !important;
+  }
+
+  .leaflet-control-fullscreen {
+    right: 12px !important;
+  }
+
+  .leaflet-control-return {
+    right: 60px !important;
+  }
+
+  .leaflet-control-locate {
+    position: absolute !important;
+    top: 12px !important;
+    right: 108px !important;
+  }
+
+  .leaflet-control-zoom {
+    margin: 12px !important;
+  }
+}
+
+@media (max-width: 677px) {
+  .leaflet-control-fullscreen {
+    top: 12px !important;
+    left: 12px !important;
+  }
+
+  .leaflet-control-return {
+    top: 12px !important;
+    left: 60px !important;
+  }
+
+  .leaflet-control-locate {
+    position: absolute !important;
+    top: 12px !important;
+    left: 108px !important;
+  }
+
+  .leaflet-control-zoom {
+    position: absolute !important;
+    top: 60px !important;
+    left: 12px !important;
+    margin: 0 !important;
+  }
+}
+
+/* Root container */
+#root {
+  height: 100vh;
+  height: -webkit-fill-available;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Fullscreen styles */
+#app-container:fullscreen,
+#app-container:-webkit-full-screen,
+#app-container:-ms-fullscreen {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* Cluster marker styles */
+.marker-cluster-small {
+  background-color: rgba(181, 226, 140, 0.6);
+}
+
+.marker-cluster-small div {
+  background-color: rgba(110, 204, 57, 0.6);
+}
+
+.marker-cluster-medium {
+  background-color: rgba(241, 211, 87, 0.6);
+}
+
+.marker-cluster-medium div {
+  background-color: rgba(240, 194, 12, 0.6);
+}
+
+.marker-cluster-large {
+  background-color: rgba(253, 156, 115, 0.6);
+}
+
+.marker-cluster-large div {
+  background-color: rgba(241, 128, 23, 0.6);
+}
+
+/* Location marker */
+.location-marker {
+  width: 24px !important;
+  height: 24px !important;
+  margin-left: -12px !important;
+  margin-top: -12px !important;
+  border-radius: 50% !important;
+  border: 2px solid white !important;
+  background-color: #4285f4 !important;
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.3) !important;
+}
+
+.location-marker::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin: 6px;
+  border-radius: 50%;
+  background-color: white;
+}
