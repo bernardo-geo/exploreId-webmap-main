@@ -9,7 +9,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário de Poios destaca-se pelo famoso Vale dos Poios, que exibe um grande canhão fluviocársico...',
     url: 'https://exploreid.pt/portfolio-item/poios/',
     category: 'aldeias de calcário',
-    image: '/icons/img_poi/300x205.png',
+    image: '/icons/img_poi/villa_chanca_1.png',
     coordinates: [39.98914953757288, -8.560566846032716],
   },
   {
@@ -49,7 +49,7 @@ export const pois: POI[] = [
     description: 'A estrada serpenteada conduz-nos até um local onde a altitude é a melhor aliada, oferecendo paisagens estonteantes ...',
     url: 'https://exploreid.pt/portfolio-item/chanca/',
     category: 'aldeias de calcário',
-    image: '/icons/aldeia-de-Poios.png',
+    image: '/icons/img_poi/chanca teste.png',
     coordinates: [40.0412738204997, -8.471309041672557],
   },
   {
