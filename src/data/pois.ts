@@ -566,7 +566,7 @@ export const pois: POI[] = [
     description: 'A cerca de 350 metros de altitude, o Miradouro da Serra do Mouro espreita sobre o relevo da paisagem, que mesmo à ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-da-serra-do-mouro/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-da-serra-do-mouro.png',
     coordinates: [39.90191359733096, -8.395470843920979],
   },  
   {
@@ -576,7 +576,7 @@ export const pois: POI[] = [
     description: 'Seja a pé – desafiando a força da gravidade que não ajuda na subida pelos passadiços de madeira –, seja de carro, não deixe de visitar o Miradouro ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-das-fragas-de-sao-simao/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-das-fragas-de-sao-simao.png',
     coordinates: [39.918333127140016, -8.31916840962601],
   },  
   {
@@ -586,7 +586,7 @@ export const pois: POI[] = [
     description: 'Do Miradouro da Cotovia, em Pedrógão Grande, vislumbra-se o vale traçado pelo Rio Zêzere, que desde a Serra da ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-da-cotovia/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-da-cotovia.png',
     coordinates: [39.91033153631408, -8.140642965152756],
   },  
   {
@@ -596,7 +596,7 @@ export const pois: POI[] = [
     description: 'Num enquadramento geográfico na qual se destacam formações calcárias e a natureza resplandecente, o Miradouro Nossa Senhora da Estrela ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-nossa-senhora-da-estrela/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-da-nossa-senhora-da-estrela.png',
     coordinates: [39.994512672062896, -8.549110265581483],
   },
   {
@@ -606,7 +606,7 @@ export const pois: POI[] = [
     description: 'A menos de meia hora do centro da vila de Penela, o Miradouro de São João do Deserto é um dos locais mais fascinantes do ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-de-sao-joao-do-deserto/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-de-sao-joao-do-deserto.png',
     coordinates: [39.99332220375278, -8.325275583102263],
   },
   {
@@ -616,7 +616,7 @@ export const pois: POI[] = [
     description: 'Situado no Espinhal, uma tranquila freguesia perto de Penela, o Miradouro Pedra da Ferida surpreende todos aqueles ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-pedra-da-ferida/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-da-pedra-da-ferida.png',
     coordinates: [40.02050695206845, -8.324896520258774],
   },
   {
@@ -626,7 +626,7 @@ export const pois: POI[] = [
     description: 'O Miradouro da Serra de Santa Maria é um local onde o tempo não pára. Assim indica o relógio de sol existente aqui existente ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-da-serra-de-santa-maria/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-santa-maria.png',
     coordinates: [40.028284710361355, -8.334683788762483],
   },
   {
@@ -636,7 +636,7 @@ export const pois: POI[] = [
     description: 'O Miradouro da Senhora do Círculo, no Casmilo, é um local encantador que oferece uma vista deslumbrante sobre a região ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-da-senhora-do-circulo-2/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-da-senhora-do-circulo.png',
     coordinates: [40.06036937311808, -8.509112146628407],
   },
   {
@@ -646,7 +646,7 @@ export const pois: POI[] = [
     description: 'A Moldura “Isto é Lousã”, localizado na estrada de acesso às Aldeias do Xisto da Lousã, é um espaço que não deixa aqueles que ...',
     url: 'https://exploreid.pt/portfolio-item/moldura-isto-e-lousa/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moldura-isto-e-lousa.png',
     coordinates: [40.093862118220486, -8.243964842892195],
   },
   {
@@ -656,7 +656,7 @@ export const pois: POI[] = [
     description: 'O nome pintado no azulejo não engana. O Miradouro de Nossa Senhora da Piedade é um ponto de observação do Santuário de Nossa Senhora ...',
     url: 'https://exploreid.pt/portfolio-item/miradouro-de-nossa-senhora-da-piedade/',
     category: 'miradouros',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/miradouro-da-nossa-senhora-da-piedade.png',
     coordinates: [40.10219832881916, -8.23483716893227],
   },
   // Moinhos
@@ -667,7 +667,7 @@ export const pois: POI[] = [
     description: 'Imponente e robusto. Assim se caracteriza o Moinho da Avanteira, que exibe uma construção em pedra com configuração ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-da-avanteira/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-da-avanteira.png',
     coordinates: [39.753262776824904, -8.447225647333855],
   },
   {
@@ -677,7 +677,7 @@ export const pois: POI[] = [
     description: 'Não pode deixar de visitar os Moinhos das Corujeiras, na freguesia de Abiul, que tendo sido alvo de intervenções são ...',
     url: 'https://exploreid.pt/portfolio-item/moinhos-das-corujeiras/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinhos-das-corujeiras.png',
     coordinates: [39.86167390222615, -8.509907439261237],
   },
   {
@@ -687,7 +687,7 @@ export const pois: POI[] = [
     description: 'Em Pousaflores, no município de Ansião, surge o Moinho de Vento do Monte da Ovelha – um moinho giratório raro na Europa ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-de-vento-do-monte-da-ovelha/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-de-vento-do-monte-da-ovelha.png',
     coordinates: [39.87337579997273, -8.401414495415496],
   },
   {
@@ -697,7 +697,7 @@ export const pois: POI[] = [
     description: 'Devido ao relevo que a natureza traça na paisagem do concelho de Ansião, diversos moinhos foram instalados ao longo ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-de-vento-da-melrica/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-de-vento-da-melrica.png',
     coordinates: [39.94158936715558, -8.52436208797042],
   },
   {
@@ -707,7 +707,7 @@ export const pois: POI[] = [
     description: 'A dois passos de Santiago da Guarda, não perca a oportunidade de mergulhar nas profundezas do meio rural e conhecer o ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-moita-negra/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-moita-negra.png',
     coordinates: [39.955993177815515, -8.510373415378748],
   },
   {
@@ -717,7 +717,7 @@ export const pois: POI[] = [
     description: 'Os Moinhos do Outeiro utilizam o vento a seu favor, distinguindo-se dos demais no seu tipo de funcionamento. Foram ...',
     url: 'https://exploreid.pt/portfolio-item/moinhos-do-outeiro/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinhos-do-outeiro.png',
     coordinates: [39.963780374640784, -8.46958944200433],
   },
   {
@@ -727,7 +727,7 @@ export const pois: POI[] = [
     description: 'No topo de uma serra de calcário, a poucos quilómetros da vila de Penela, há um moinho de vento antigo que oferece ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-carrega/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-carrega.png',
     coordinates: [39.99662143433815, -8.385219858512347],
   },
   {
@@ -737,7 +737,7 @@ export const pois: POI[] = [
     description: 'Construído em 1948 e rodeado por uma paisagem calcária, o Moinho de Vento da Serra de Janeanes, também chamado de ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-da-serra-de-janeanes/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-da-serra-de-janeanes.png',
     coordinates: [40.05988764985596, -8.480728324516217],
   },
   {
@@ -747,7 +747,7 @@ export const pois: POI[] = [
     description: 'Embalado pela brisa que por aqui teima em passar, o Moinho de Monforte é testemunho da tradição molineira da ...',
     url: 'https://exploreid.pt/portfolio-item/moinho-de-monforte/',
     category: 'moinhos de vento',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/moinho-de-monforte.png',
     coordinates: [40.10443039869226, -8.386670465376206],
   },
   // Museus
