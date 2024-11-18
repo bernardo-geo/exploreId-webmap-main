@@ -9,7 +9,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário de Poios destaca-se pelo famoso Vale dos Poios, que exibe um grande canhão fluviocársico...',
     url: 'https://exploreid.pt/portfolio-item/poios/',
     category: 'aldeias de calcário',
-    image: '/icons/img_poi/villa_chanca_1.png',
+    image: 'icons/img_poi/poios.png',
     coordinates: [39.98914953757288, -8.560566846032716],
   },
   {
@@ -19,7 +19,7 @@ export const pois: POI[] = [
     description: 'A aldeia de Ariques é um local que guarda tradição e cultura, preservando traços típicos da ruralidade antiga. É na ...',
     url: 'https://exploreid.pt/portfolio-item/ariques/',
     category: 'aldeias de calcário',
-    image: '/icons/img_poi/300x260.png',
+    image: 'icons/img_poi/ariques.png',
     coordinates: [39.859699, -8.426134],
   },
   {
@@ -29,7 +29,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário dos Casais da Granja é um lugar guardado pelo monte dos Moinhos do Outeiro, onde os caminhos de ...',
     url: 'https://exploreid.pt/portfolio-item/casais-da-granja/',
     category: 'aldeias de calcário',
-    image: '/icons/img_poi/canva-teste.png',
+    image: 'icons/img_poi/casais-da-granja.png',
     coordinates: [39.95520944164655, -8.460324169531289],
   },
   {
@@ -39,7 +39,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário de Cotas, pertence a Soure e insere-se numa paisagem rural onde predomina a pedra calcária e uma ...',
     url: 'https://exploreid.pt/portfolio-item/cotas/',
     category: 'aldeias de calcário',
-    image: '/icons/aldeia-de-Poios.png',
+    image: 'icons/img_poi/cotas.png',
     coordinates: [40.00495870900593, -8.486308000080415],
   },
   {
@@ -49,7 +49,7 @@ export const pois: POI[] = [
     description: 'A estrada serpenteada conduz-nos até um local onde a altitude é a melhor aliada, oferecendo paisagens estonteantes ...',
     url: 'https://exploreid.pt/portfolio-item/chanca/',
     category: 'aldeias de calcário',
-    image: '/icons/img_poi/Chanca teste.png',
+    image: 'icons/img_poi/chanca.png',
     coordinates: [40.0412738204997, -8.471309041672557],
   },
   {
@@ -59,7 +59,7 @@ export const pois: POI[] = [
     description: 'É na tranquilidade do ambiente rural da Serra Senhora do Círculo que a aldeia do Casmilo surge serena e harmoniosa, fascinando ...',
     url: 'https://exploreid.pt/portfolio-item/casmilo/',
     category: 'aldeias de calcário',
-    image: '/icons/aldeia-de-Poios.png',
+    image: 'icons/img_poi/casmilo.png',
     coordinates: [40.0572848137484, -8.498614457710335],
   },
 
@@ -71,7 +71,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto de Casal de São Simão, em Figueiró dos Vinhos, mostra a beleza da ruralidade aliada à serenidade da ...',
     url: 'https://exploreid.pt/portfolio-item/casal-de-sao-simao-2/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/casal-sao-simao.png',
+    image: 'icons/img_poi/casal-de-sao-simao.png',
     coordinates: [39.91694252283582, -8.322288984980627],
   },
   {
@@ -81,7 +81,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Mosteiro situa-se no fundo de um vale, ocupando as margens da ribeira de Pera, curso ...',
     url: 'https://exploreid.pt/portfolio-item/mosteiro/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/mosteiro.png',
     coordinates: [39.93945152171791, -8.185046435784997],
   },
   {
@@ -91,7 +91,7 @@ export const pois: POI[] = [
     description: 'Ativa e entusiasta. Assim se caracteriza a Aldeia do Xisto da Ferraria de S. João que, contrariando os sinais da ...',
     url: 'https://exploreid.pt/portfolio-item/ferraria-de-sao-joao/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/ferraria-de-sao-joao.png',
     coordinates: [39.97425864389989, -8.324114337207325],
   },
   {
@@ -101,7 +101,7 @@ export const pois: POI[] = [
     description: 'Assente sobre a encosta oeste da Serra da Lousã, a Aldeia do Xisto de Gondramaz distingue-se pela tonalidade da sua pedra ...',
     url: 'https://exploreid.pt/portfolio-item/gondramaz/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/gondramaz.png',
     coordinates: [40.06217886925177, -8.272963230756153]
   },
   {
@@ -111,7 +111,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Candal, localizada junto à Estrada Nacional, que liga Lousã a Castanheira de Pera, oferece uma ...',
     url: 'https://exploreid.pt/portfolio-item/candal/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/candal.png',
     coordinates: [40.08226321872588, -8.204709061647671]
   },
   {
@@ -121,7 +121,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Chiqueiro prima pela calma e tranquilidade, tão apreciada pelos amantes de natureza. Em plena Serra ...',
     url: 'https://exploreid.pt/portfolio-item/chiqueiro/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/chiqueiro.png',
     coordinates: [40.08650666706621, -8.232203429253648]
   },
   {
@@ -131,7 +131,7 @@ export const pois: POI[] = [
     description: 'A pitoresca Aldeia do Xisto do Casal Novo surge na densa floresta que cobre a formosa Serra da Lousã. Apresentando formas ...',
     url: 'https://exploreid.pt/portfolio-item/casal-novo-2/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/casal-novo.png',
     coordinates: [40.09297890327447, -8.235608846739636]
   },
   {
@@ -141,7 +141,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Talasnal destaca-se pelo seu carisma, pela sua personalidade com detalhes refinados e pela sua ...',
     url: 'https://exploreid.pt/portfolio-item/talasnal/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/talasnal.png',
     coordinates: [40.09195417339648, -8.22580852118504]
   },
   {
@@ -151,7 +151,7 @@ export const pois: POI[] = [
     description: 'Repleta de charme e encanto, a Aldeia do Xisto de Cerdeira é um local de relaxamento e descontração absolutamente ...',
     url: 'https://exploreid.pt/portfolio-item/cerdeira/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/cerdeira.png',
     coordinates: [40.094083747595015, -8.19451355433417]
   },
   {
@@ -161,7 +161,7 @@ export const pois: POI[] = [
     description: 'Lá bem no alto da imponente Serra da Lousã, a 770 metros de altitude, a Aldeia do Xisto de Aigra Velha ostenta o seu encanto ...',
     url: 'https://exploreid.pt/portfolio-item/aigra-velha/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/aigra-velha.png',
     coordinates: [40.10976529647178, -8.148805280238136]
   },
   {
@@ -171,7 +171,7 @@ export const pois: POI[] = [
     description: 'Diferenciando-se das restantes aldeias do xisto da Serra da Lousã, a Aldeia do Xisto da Pena combina a utilização desta ...',
     url: 'https://exploreid.pt/portfolio-item/pena/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/pena.png',
     coordinates: [40.11137913981347, -8.13501297997985]
   },
   {
@@ -181,7 +181,7 @@ export const pois: POI[] = [
     description: 'Após curvas e contracurvas de estradas que gentilmente concedem vistas de  cortar a respiração, a Aldeia do Xisto de Aigra ...',
     url: 'https://exploreid.pt/portfolio-item/aigra-nova/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/aigra-nova.png',
     coordinates: [40.120935846580174, -8.153793524340177]
   },
   {
@@ -191,7 +191,7 @@ export const pois: POI[] = [
     description: 'Ostentando o título de Aldeia do Xisto de tamanho mais reduzido, Comareira não poupa motivos de visita aos seus turistas, que ...',
     url: 'https://exploreid.pt/portfolio-item/comareira/',
     category: 'aldeias do xisto',
-    image: 'https://images.unsplash.com/photo-1574785289548-d0c5d446d7f9?auto=format&fit=crop&w=800',
+    image: 'icons/img_poi/comareira.png',
     coordinates: [40.127379503476604, -8.153000771902805]
   },
 
@@ -257,12 +257,12 @@ export const pois: POI[] = [
   // Arqueologia (IDs 1)
   {
     id: 'arqueologia-1',
-    project: 'Penela',
-    name: 'Condeixa',
+    project: 'Condeixa',
+    name: 'Castellum de Alcabideque',
     description: 'O Castellum de Alcabideque, localizado perto de Condeixa, é um sítio histórico que remonta ao período romano, mais ...',
     url: 'https://exploreid.pt/portfolio-item/castellum-de-alcabideque/',
     category: 'arqueologia',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castellum-de-Alcabideque.png',
     coordinates: [40.10649898873793, -8.46527667490036],
   },
 
@@ -274,7 +274,7 @@ export const pois: POI[] = [
     description: 'A escassos quilómetros do centro da vila, o Baloiço de Alvaiázere ergue-se a 600 metros de altitude...',
     url: 'https://exploreid.pt/portfolio-item/baloico-de-alvaiazere/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-de-alvaiazere.png',
     coordinates: [39.830850679439756, -8.406128807728741],
   },
   {
@@ -284,7 +284,7 @@ export const pois: POI[] = [
     description: 'Tendo na mira a aldeia de Alvorge, o topo da colina guarda uma diversão feita a pensar em todas as idades ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-alvorge-ladeia/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-alvorge-ladeia.png',
     coordinates: [39.97685470684368, -8.441164223503492],
   },
   {
@@ -294,7 +294,7 @@ export const pois: POI[] = [
     description: 'A pouco mais de meia dúzia de quilómetros do centro da Vila de Soure, o Baloiço do Vale da Galada estende o convite ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-do-vale-da-galada/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-do-vale-da-galada.png',
     coordinates: [40.030329580471694, -8.573380280529452],
   },
   {
@@ -304,7 +304,7 @@ export const pois: POI[] = [
     description: 'Posicionado num enquadramento geográfico de excelência, com vistas desafogadas em seu redor ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-degracias/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-degracias.png',
     coordinates: [40.02262941840934, -8.522570201980377],
   },
   {
@@ -314,7 +314,7 @@ export const pois: POI[] = [
     description: 'As elevações naturais da Serra de Sicó proporcionam vistas fantásticas! Situado na aldeia de calcário da Chanca ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-da-chanca/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-da-chanca.png',
     coordinates: [40.03932889651187, -8.47116024066747],
   },
   {
@@ -324,7 +324,7 @@ export const pois: POI[] = [
     description: 'A subida para o Castelo do Germanelo, que se adivinha intensa, tem agora um local de descanso ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-do-germanelo/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-do-germanelo.png',
     coordinates: [40.02615467376572, -8.429839933510294],
   },
   {
@@ -334,7 +334,7 @@ export const pois: POI[] = [
     description: 'De olhos postos nos terrenos onde das parreiras crescem as uvas para a produção de vinho tinto, branco e rosé ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-da-vinha/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-da-vinha.png',
     coordinates: [40.03500982435366, -8.397147066281411],
   },
   {
@@ -344,7 +344,7 @@ export const pois: POI[] = [
     description: 'A uns impressionantes 1200 metros de altitude, onde o ar se sente mais leve e fresco ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-do-trevim/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-do-trevim.png',
     coordinates: [40.07706091510833, -8.191717668290266],
   },
   {
@@ -354,7 +354,7 @@ export const pois: POI[] = [
     description: 'De frente para os campos do Arunca, onde a cultura do arroz continua a marcar presença ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-soure-brunhos/',
     category: 'baloiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/baloico-soure-brunhos.png',
     coordinates: [40.11413522671064, -8.661196182622312],
   },
 
@@ -366,7 +366,7 @@ export const pois: POI[] = [
     description: 'A Barragem da Bouçã, construída em 1954, em arco abobadado, une os distritos de Castelo Branco e Leiria ...',
     url: 'https://exploreid.pt/portfolio-item/barragem-da-bouca/',
     category: 'barragens',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/barragem-da-bouca.png',
     coordinates: [39.85352552744712, -8.2188962],
   },
   {
@@ -376,7 +376,7 @@ export const pois: POI[] = [
     description: 'A Barragem do Cabril, erguida em 1954, é alimentada pela força da água trazida pelo rio Zêzere ...',
     url: 'https://exploreid.pt/portfolio-item/barragem-do-cabril/',
     category: 'barragens',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/barragem-do-cabril.png',
     coordinates: [39.918040629214346, -8.132151813490953],
   },
   // Cascatas
@@ -387,7 +387,7 @@ export const pois: POI[] = [
     description: 'Escondida na encantadora Serra do Espinhal, a Cascata da Pedra Ferida faz parte de um conjunto de cascatas que as águas ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-da-pedra-da-ferida/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/cascata-pedra-da-ferida.png',
     coordinates: [40.01944062742648, -8.329525094452121]
   },
   {
@@ -397,7 +397,7 @@ export const pois: POI[] = [
     description: 'Escondida no coração de uma paisagem exuberante, esta impressionante cascata é um tesouro natural que ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-do-penedo-dos-corvos/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/cascata-do-penedo-dos-corvos.png',
     coordinates: [40.061563307837005, -8.268687812641836]
   },
   {
@@ -407,7 +407,7 @@ export const pois: POI[] = [
     description: 'As placas dispostas ao longo do Passadiço das Quelhas sinalizam e encaminham os visitantes até um local de beleza ímpar ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-da-ribeira-das-quelhas/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/cascata-da-ribeira-das-quelhas.png',
     coordinates: [40.06331362366255, -8.172843064915204]
   },
   {
@@ -417,7 +417,7 @@ export const pois: POI[] = [
     description: 'Este é um dos açudes do rio Dueça que servia de apoio à agricultura. Utilizado na irrigação de terrenos e nas levadas de água ...',
     url: 'https://exploreid.pt/portfolio-item/acude-dalbarrol/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/acude-albarrol.png',
     coordinates: [40.07188232462414, -8.33932818230403]
   },
   {
@@ -427,7 +427,7 @@ export const pois: POI[] = [
     description: 'A apenas 800 metros da Aldeia de Xisto do Candal, esta cascata é um dos grandes tesouros naturais da Serra da Lousã. É um ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-do-candal/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/cascata-do-candal.png',
     coordinates: [40.08273673398979, -8.209017776905757]
   },
   {
@@ -437,7 +437,7 @@ export const pois: POI[] = [
     description: 'Inserida num cenário paradisíaco, esta cascata deslumbrante é o destino perfeito para quem procura momentos de paz e ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-da-nossa-senhora-da-piedade/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/cascata-da-nossa-senhora-da-piedade.png',
     coordinates: [40.09958200068789, -8.233914609004083]
   },
   {
@@ -447,7 +447,7 @@ export const pois: POI[] = [
     description: 'Próxima às Ruínas de Conímbriga, esta cascata, tal como o nome denuncia, insere-se no canhão fluviocársico do rio de ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-do-rio-de-mouros/',
     category: 'cascatas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/cascata-do-rio-de-mouros.png',
     coordinates: [40.09381622905747, -8.48697180044676]
   }, 
   //Castelos
@@ -458,7 +458,7 @@ export const pois: POI[] = [
     description: 'Reconhecida com a classificação de Monumento Nacional, esta estrutura defensiva medieval insere-se num conjunto de praças ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-de-pombal/',
     category: 'castelos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castelo-de-pombal.png',
     coordinates: [39.913963284491594, -8.624878044518235]
   }, 
   {
@@ -468,7 +468,7 @@ export const pois: POI[] = [
     description: 'A subida para o Castelo do Germanelo, que se adivinha intensa, tem agora um local de descanso que não vai querer ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-de-germanelo/',
     category: 'castelos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castelo-do-germanelo.png',
     coordinates: [40.0262973123455, -8.430492845171258]
   }, 
   {
@@ -478,7 +478,7 @@ export const pois: POI[] = [
     description: 'Erguido no longínquo século XI por D. Sesnando Davides, o Castelo de Penela é uma construção medieval que se destaca ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-de-penela/',
     category: 'castelos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castelo-de-penela.png',
     coordinates: [40.03090575173051, -8.390173366917645]
   }, 
   {
@@ -488,7 +488,7 @@ export const pois: POI[] = [
     description: 'No coração da vila, o Castelo de Soure é um marco patrimonial incontornável na região. Mandado erguer por D. Sesnan ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-de-soure/',
     category: 'castelos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castelo-de-soure.png',
     coordinates: [40.0568825162006, -8.626307389344959]
   }, 
   {
@@ -498,7 +498,7 @@ export const pois: POI[] = [
     description: 'Encaixado delicadamente no manto verde que cobre a Serra da Lousã, esta é uma fortificação encantadora, cuja magia que ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-da-lousa/',
     category: 'castelos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castelo-da-lousa.png',
     coordinates: [40.100442080748216, -8.235513077070244]
   }, 
   {
@@ -508,7 +508,7 @@ export const pois: POI[] = [
     description: 'O Castelo de Montemor-o-Velho, elemento patrimonial classificado como Monumento Nacional desde 1910, destaca-se ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-de-montemor-o-velho/',
     category: 'castelos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/castelo-de-montemor-o-velho.png',
     coordinates: [40.17575145857343, -8.682854564259609]
   }, 
   // Enoturismo
@@ -555,7 +555,7 @@ export const pois: POI[] = [
     description: 'As Buracas do Casmilo são o ex-líbris das Terras de Sicó. Escondidas nas proximidades da aldeia de calcário do Casmilo ...',
     url: 'https://exploreid.pt/portfolio-item/buracas-do-casmilo/',
     category: 'grutas e buracas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/buracas-do-casmilo.png',
     coordinates: [40.05483688953813, -8.497728535197314],
   },  
   //Miradouros
@@ -758,7 +758,7 @@ export const pois: POI[] = [
     description: 'Contemplando um impressionante conjunto de elementos patrimoniais de excelência, o Complexo Monumental de ...',
     url: 'https://exploreid.pt/portfolio-item/complexo-monumental-de-santiago-da-guarda/',
     category: 'museus',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/complexo-monumental-de-santiago-da-guarda.png',
     coordinates: [39.9479795375107, -8.48059610738198],
   },
   {
@@ -768,7 +768,7 @@ export const pois: POI[] = [
     description: 'O Centro Interpretativo do Cereal (Espinhal - Penela), é um espaço dedicado à valorização da história e cultura do cereal ...',
     url: 'https://exploreid.pt/portfolio-item/centro-interpretativo-do-cereal',
     category: 'museus',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/centro-interpretativo-do-cereal.png',
     coordinates: [40.00804870868277, -8.355515612858829],
   },
   {
@@ -778,7 +778,7 @@ export const pois: POI[] = [
     description: 'O Espaço-Museu da Villa Romana do Rabaçal, no concelho de Penela, recorda os tempos longínquos nos quais o Império Romano ...',
     url: 'https://exploreid.pt/portfolio-item/espaco-museu-da-villa-romana-do-rabacal',
     category: 'museus',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/espaco-museu-da-villa-romana-do-rabaçal.png',
     coordinates: [40.0298526316934, -8.454778518317108],
   },
   {
@@ -788,7 +788,7 @@ export const pois: POI[] = [
     description: 'As Ruínas de Conímbriga, no município de Condeixa-a-Nova, representam uma cidade romana que foi fundada entre os séculos ...',
     url: 'https://exploreid.pt/portfolio-item/ruinas-de-conimbriga/',
     category: 'museus',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/ruinas-de-conimbriga.png',
     coordinates: [40.098531218317035, -8.490802226127496],
   },
   {
@@ -798,7 +798,7 @@ export const pois: POI[] = [
     description: 'Por terras onde os romanos, chegados há 2000 anos, deixaram marcas bem vincadas da sua história e cultura, o PO.RO.S ...',
     url: 'https://exploreid.pt/portfolio-item/poros-museu-portugal-romano-em-sico/',
     category: 'museus',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/poros-museu-portugal-romano-em-sico.png',
     coordinates: [40.11187048494555, -8.491611455276274],
   },
   // Parque de campismo
