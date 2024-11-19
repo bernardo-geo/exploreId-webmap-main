@@ -101,7 +101,7 @@ export default function Map() {
     setShowMoedaId(false);
     setSearchQuery('');
     if (mapRef.current) {
-      mapRef.current.setView([39.999, -8.464], 5);
+      mapRef.current.setView([39.999, -8.464], 10.5);
     }
   }, []);
 

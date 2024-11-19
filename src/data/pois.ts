@@ -9,7 +9,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário de Poios destaca-se pelo famoso Vale dos Poios, que exibe um grande canhão fluviocársico...',
     url: 'https://exploreid.pt/portfolio-item/poios/',
     category: 'aldeias de calcário',
-    image: 'icons/img_poi/poios.png',
+    image: 'icons/img_poi/calcario-poios.png',
     coordinates: [39.98914953757288, -8.560566846032716],
   },
   {
@@ -19,7 +19,7 @@ export const pois: POI[] = [
     description: 'A aldeia de Ariques é um local que guarda tradição e cultura, preservando traços típicos da ruralidade antiga. É na ...',
     url: 'https://exploreid.pt/portfolio-item/ariques/',
     category: 'aldeias de calcário',
-    image: 'icons/img_poi/ariques.png',
+    image: 'icons/img_poi/calcario-ariques.png',
     coordinates: [39.859699, -8.426134],
   },
   {
@@ -29,7 +29,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário dos Casais da Granja é um lugar guardado pelo monte dos Moinhos do Outeiro, onde os caminhos de ...',
     url: 'https://exploreid.pt/portfolio-item/casais-da-granja/',
     category: 'aldeias de calcário',
-    image: 'icons/img_poi/casais-da-granja.png',
+    image: 'icons/img_poi/calcario-casais-da-granja.png',
     coordinates: [39.95520944164655, -8.460324169531289],
   },
   {
@@ -39,7 +39,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário de Cotas, pertence a Soure e insere-se numa paisagem rural onde predomina a pedra calcária e uma ...',
     url: 'https://exploreid.pt/portfolio-item/cotas/',
     category: 'aldeias de calcário',
-    image: 'icons/img_poi/cotas.png',
+    image: 'icons/img_poi/calcario-cotas.png',
     coordinates: [40.00495870900593, -8.486308000080415],
   },
   {
@@ -49,7 +49,7 @@ export const pois: POI[] = [
     description: 'A estrada serpenteada conduz-nos até um local onde a altitude é a melhor aliada, oferecendo paisagens estonteantes ...',
     url: 'https://exploreid.pt/portfolio-item/chanca/',
     category: 'aldeias de calcário',
-    image: 'icons/img_poi/chanca.png',
+    image: 'icons/img_poi/calcario-chanca.png',
     coordinates: [40.0412738204997, -8.471309041672557],
   },
   {
@@ -59,7 +59,7 @@ export const pois: POI[] = [
     description: 'É na tranquilidade do ambiente rural da Serra Senhora do Círculo que a aldeia do Casmilo surge serena e harmoniosa, fascinando ...',
     url: 'https://exploreid.pt/portfolio-item/casmilo/',
     category: 'aldeias de calcário',
-    image: 'icons/img_poi/casmilo.png',
+    image: 'icons/img_poi/calcario-casmilo.png',
     coordinates: [40.0572848137484, -8.498614457710335],
   },
 
@@ -71,7 +71,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto de Casal de São Simão, em Figueiró dos Vinhos, mostra a beleza da ruralidade aliada à serenidade da ...',
     url: 'https://exploreid.pt/portfolio-item/casal-de-sao-simao-2/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/casal-de-sao-simao.png',
+    image: 'icons/img_poi/xisto-casal-de-sao-simao.png',
     coordinates: [39.91694252283582, -8.322288984980627],
   },
   {
@@ -81,7 +81,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Mosteiro situa-se no fundo de um vale, ocupando as margens da ribeira de Pera, curso ...',
     url: 'https://exploreid.pt/portfolio-item/mosteiro/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/mosteiro.png',
+    image: 'icons/img_poi/xisto-mosteiro.png',
     coordinates: [39.93945152171791, -8.185046435784997],
   },
   {
@@ -91,7 +91,7 @@ export const pois: POI[] = [
     description: 'Ativa e entusiasta. Assim se caracteriza a Aldeia do Xisto da Ferraria de S. João que, contrariando os sinais da ...',
     url: 'https://exploreid.pt/portfolio-item/ferraria-de-sao-joao/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/ferraria-de-sao-joao.png',
+    image: 'icons/img_poi/xisto-ferraria-de-sao-joao.png',
     coordinates: [39.97425864389989, -8.324114337207325],
   },
   {
@@ -101,7 +101,7 @@ export const pois: POI[] = [
     description: 'Assente sobre a encosta oeste da Serra da Lousã, a Aldeia do Xisto de Gondramaz distingue-se pela tonalidade da sua pedra ...',
     url: 'https://exploreid.pt/portfolio-item/gondramaz/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/gondramaz.png',
+    image: 'icons/img_poi/xisto-gondramaz.png',
     coordinates: [40.06217886925177, -8.272963230756153]
   },
   {
@@ -111,7 +111,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Candal, localizada junto à Estrada Nacional, que liga Lousã a Castanheira de Pera, oferece uma ...',
     url: 'https://exploreid.pt/portfolio-item/candal/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/candal.png',
+    image: 'icons/img_poi/xisto-candal.png',
     coordinates: [40.08226321872588, -8.204709061647671]
   },
   {
@@ -121,7 +121,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Chiqueiro prima pela calma e tranquilidade, tão apreciada pelos amantes de natureza. Em plena Serra ...',
     url: 'https://exploreid.pt/portfolio-item/chiqueiro/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/chiqueiro.png',
+    image: 'icons/img_poi/xisto-chiqueiro.png',
     coordinates: [40.08650666706621, -8.232203429253648]
   },
   {
@@ -131,7 +131,7 @@ export const pois: POI[] = [
     description: 'A pitoresca Aldeia do Xisto do Casal Novo surge na densa floresta que cobre a formosa Serra da Lousã. Apresentando formas ...',
     url: 'https://exploreid.pt/portfolio-item/casal-novo-2/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/casal-novo.png',
+    image: 'icons/img_poi/xisto-casal-novo.png',
     coordinates: [40.09297890327447, -8.235608846739636]
   },
   {
@@ -141,7 +141,7 @@ export const pois: POI[] = [
     description: 'A Aldeia do Xisto do Talasnal destaca-se pelo seu carisma, pela sua personalidade com detalhes refinados e pela sua ...',
     url: 'https://exploreid.pt/portfolio-item/talasnal/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/talasnal.png',
+    image: 'icons/img_poi/xisto-talasnal.png',
     coordinates: [40.09195417339648, -8.22580852118504]
   },
   {
@@ -151,7 +151,7 @@ export const pois: POI[] = [
     description: 'Repleta de charme e encanto, a Aldeia do Xisto de Cerdeira é um local de relaxamento e descontração absolutamente ...',
     url: 'https://exploreid.pt/portfolio-item/cerdeira/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/cerdeira.png',
+    image: 'icons/img_poi/xisto-cerdeira.png',
     coordinates: [40.094083747595015, -8.19451355433417]
   },
   {
@@ -161,7 +161,7 @@ export const pois: POI[] = [
     description: 'Lá bem no alto da imponente Serra da Lousã, a 770 metros de altitude, a Aldeia do Xisto de Aigra Velha ostenta o seu encanto ...',
     url: 'https://exploreid.pt/portfolio-item/aigra-velha/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/aigra-velha.png',
+    image: 'icons/img_poi/xisto-aigra-velha.png',
     coordinates: [40.10976529647178, -8.148805280238136]
   },
   {
@@ -171,7 +171,7 @@ export const pois: POI[] = [
     description: 'Diferenciando-se das restantes aldeias do xisto da Serra da Lousã, a Aldeia do Xisto da Pena combina a utilização desta ...',
     url: 'https://exploreid.pt/portfolio-item/pena/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/pena.png',
+    image: 'icons/img_poi/xisto-pena.png',
     coordinates: [40.11137913981347, -8.13501297997985]
   },
   {
@@ -181,7 +181,7 @@ export const pois: POI[] = [
     description: 'Após curvas e contracurvas de estradas que gentilmente concedem vistas de  cortar a respiração, a Aldeia do Xisto de Aigra ...',
     url: 'https://exploreid.pt/portfolio-item/aigra-nova/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/aigra-nova.png',
+    image: 'icons/img_poi/xisto-aigra-nova.png',
     coordinates: [40.120935846580174, -8.153793524340177]
   },
   {
@@ -191,7 +191,7 @@ export const pois: POI[] = [
     description: 'Ostentando o título de Aldeia do Xisto de tamanho mais reduzido, Comareira não poupa motivos de visita aos seus turistas, que ...',
     url: 'https://exploreid.pt/portfolio-item/comareira/',
     category: 'aldeias do xisto',
-    image: 'icons/img_poi/comareira.png',
+    image: 'icons/img_poi/xisto-comareira.png',
     coordinates: [40.127379503476604, -8.153000771902805]
   },
 
@@ -203,7 +203,7 @@ export const pois: POI[] = [
     description: 'Feito de tradições e memórias, o Poço e Meio é uma surpreendente Casa de Campo localizada em pleno vale do Nabão ...',
     url: 'https://exploreid.pt/portfolio-item/poco-e-meio/',
     category: 'alojamento',
-    image: '/icons/img_poi/300x260.jpg',
+    image: 'icons/img_poi/al-poco-e-meio.png',
     coordinates: [39.9051903224142, -8.477051637284037],
     hasMoedaId: true,
   },
@@ -214,7 +214,7 @@ export const pois: POI[] = [
     description: 'A Quintinha do Casal Ruivo é o destino ideal para quem procura uma escapadela revigorante! ...',
     url: 'https://exploreid.pt/portfolio-item/quintinha-do-casal-ruivo/',
     category: 'alojamento',
-    image: '/icons/img_poi/500x355.png',
+    image: 'icons/img_poi/al-quintinha-do-casal-ruivo.png',
     coordinates: [39.910605979102804, -8.346760728884624],
     hasMoedaId: true,
   },
@@ -225,7 +225,7 @@ export const pois: POI[] = [
     description: 'Feita de memórias e histórias, que os seus carismáticos proprietários não se cansam de contar ...',
     url: 'https://exploreid.pt/portfolio-item/villa-chanca/',
     category: 'alojamento',
-    image: '/icons/img_poi/750x500.png',
+    image: '/icons/img_poi/al-a-villa-chanca.png',
     coordinates: [40.041846433474056, -8.471386799458067],
     hasMoedaId: true,
   },
@@ -238,7 +238,7 @@ export const pois: POI[] = [
     description: 'Procura atividades divertidas em contacto com a natureza? A Expertree tem a solução perfeita. Com o arborismo como um um dos ingred ...',
     url: 'https://exploreid.pt/portfolio-item/expertree/',
     category: 'animação turística',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/at-expertree.png',
     coordinates: [40.009139938121535, -8.355661674500153],
     hasMoedaId: true
   },
@@ -249,7 +249,7 @@ export const pois: POI[] = [
     description: 'Entre com o pé direito no território e descubra 1001 formas de explorar e conhecer a oferta turística existente. A Geonatour encarrega-se de ...',
     url: 'https://exploreid.pt/portfolio-item/geonatour/',
     category: 'animação turística',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/at-geonatour.png',
     coordinates: [40.02865575005945, -8.390517827423908],
     hasMoedaId: true
   },
@@ -519,7 +519,7 @@ export const pois: POI[] = [
     description: 'Na região das Terras de Sicó, conhecida por produzir vinhos encorpados, frescos e leves, a Encosta da Criveira desempenha um papel ...',
     url: 'https://exploreid.pt/portfolio-item/encosta-da-criveira/',
     category: 'enoturismo',
-    image: '/icons/img_poi/canva-teste.png',
+    image: 'icons/img_poi/enoturismo-encosta-da-criveira.png',
     coordinates: [40.02910286811458, -8.391404153485045],
     hasMoedaId: true
   },  
@@ -530,7 +530,7 @@ export const pois: POI[] = [
     description: 'Quinta com produção vinícola há quatro gerações, os vinhos do Monte Formigão carregam o sabor único das uvas cultivadas em solos calcários ...',
     url: 'https://exploreid.pt/portfolio-item/monte-formigao/',
     category: 'enoturismo',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/enoturismo-monte-formigao.png',
     coordinates: [40.06007910544982, -8.392907150348975],
     hasMoedaId: true
   },  
@@ -542,7 +542,7 @@ export const pois: POI[] = [
     description: 'A Gruta do Soprador do Carvalho é a mais extensa do Maciço de Sicó e uma das maiores de Portugal, abrangendo uma impressionante distância ...',
     url: 'https://exploreid.pt/portfolio-item/cised-espeleologia/',
     category: 'espeleologia',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/espeleologia-cised.png',
     coordinates: [39.983267457162775, -8.384125039458453],
     hasMoedaId: true
   },  
@@ -809,7 +809,7 @@ export const pois: POI[] = [
     description: 'Bem perto da Estrada Nacional 2 (EN2), com vistas privilegiadas para uma das maiores barragens de Portugal, que proporciona um espelho ...',
     url: 'https://exploreid.pt/portfolio-item/parque-de-campismo-de-pedrogao-grande/',
     category: 'parque de campismo',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/parque-de-campismo-de-pedrogao-grande.png',
     coordinates: [39.92402937044929, -8.133125940305844],
   },
   // Parques temáticos
@@ -820,7 +820,7 @@ export const pois: POI[] = [
     description: 'Dinâmico, animado e refrescante. Assim se caracteriza o Aquaparque Panorâmico, em Pombal, que através das suas ...',
     url: 'https://exploreid.pt/portfolio-item/aquaparque-panoramico/',
     category: 'parques temáticos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/panoramico-aquaparque.png',
     coordinates: [39.9228286655188, -8.595770652280317],
   },
   {
@@ -830,7 +830,7 @@ export const pois: POI[] = [
     description: 'Situado em Miranda do Corvo, o Parque Biológico da Serra da Lousã apresenta-se aos seus visitantes como a maior amostra ...',
     url: 'https://exploreid.pt/portfolio-item/parque-biologico-da-serra-da-lousa/',
     category: 'parques temáticos',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/parque-biologico-da-serra-da-lousa.png',
     coordinates: [40.08210239234566, -8.333012557574504],
   },
   // Passadiços
@@ -841,7 +841,7 @@ export const pois: POI[] = [
     description: 'Na zona de confluência da ribeira de Pera com o rio Zêzere, os Passadiços do Penedo do Granada, construídos ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-penedo-granada/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-do-penedo-do-granada.png',
     coordinates: [39.90173601841175, -8.143332679615758],
   },
   {
@@ -851,7 +851,7 @@ export const pois: POI[] = [
     description: 'Prepare-se para 45 minutos de muita diversão e aventura. Ao longo de cerca de 2 kms, o traçado conecta o Miradouro das Fragas de São Simão ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-fragas-sao-simao/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-das-fragas-de-sao-simao.png',
     coordinates: [39.91473665698903, -8.3167447414513],
   },
   {
@@ -861,7 +861,7 @@ export const pois: POI[] = [
     description: 'Estabelecidos nas vertentes clivosas da Serra da Lousã, os Passadiços da Ribeira das Quelhas são um desafio perfeito para os ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-da-ribeira-das-quelhas/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-da-ribeira-das-quelhas.png',
     coordinates: [40.06331632839597, -8.1728410499019],
   },
   {
@@ -871,7 +871,7 @@ export const pois: POI[] = [
     description: 'Este passadiço mágico liga a Vila da Lousã, mais precisamente o Cabo do Soito, ao Complexo Turístico da Senhora da Piedade ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-nossa-senhora-piedade/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-da-nossa-senhora-da-piedade.png',
     coordinates: [40.104068719130694, -8.24381589081656],
   },
   {
@@ -881,7 +881,7 @@ export const pois: POI[] = [
     description: 'No coração de Miranda do Corvo, os Passadiços da Volta da Costa são um incentivo à prática de exercício físico e à exploração ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-da-volta-da-costa/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-da-volta-da-costa.png',
     coordinates: [40.091382645594734, -8.336865041555738],
   },
   {
@@ -891,7 +891,7 @@ export const pois: POI[] = [
     description: 'Os Passadiços de Rio de Mouros em Condeixa são um verdadeiro tesouro para os amantes da natureza, oferecendo uma ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-de-rio-de-mouros/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-do-rio-de-mouros.png',
     coordinates: [40.097762459376476, -8.491369199354585],
     routeIds: ['wine-route-2']
   },
@@ -902,7 +902,7 @@ export const pois: POI[] = [
     description: 'Estendo as suas estruturas de madeira ao longo de 600 metros e 450 degraus, os Passadiços do Cerro da Candosa ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-do-cerro-da-candosa/',
     category: 'passadiços',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/passadicos-do-cerro-da-candosa.png',
     coordinates: [40.17560795749777, -8.170881333566273],
   },
   // Patrimonio Mundial
@@ -913,7 +913,7 @@ export const pois: POI[] = [
     description: 'A Universidade de Coimbra, fundada em 1290 pelo Rei D. Dinis, é uma das instituições de ensino superior mais antigas do ...',
     url: 'https://exploreid.pt/portfolio-item/universidade-de-coimbra/',
     category: 'património mundial',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/universidade-de-coimbra.png',
     coordinates: [40.20764298576764, -8.42609333618667],
   },
   {
@@ -923,7 +923,7 @@ export const pois: POI[] = [
     description: 'O Convento de Cristo, localizado em Tomar, encontra-se classificado como Património Mundial da UNESCO. Fundado no ...',
     url: 'https://exploreid.pt/portfolio-item/convento-de-cristo/',
     category: 'património mundial',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/convento-de-cristo.png',
     coordinates: [39.6041197577396, -8.417396576798925],
   },
   // Percursos e rotas
@@ -934,7 +934,7 @@ export const pois: POI[] = [
     description: 'Embarque nesta aventura e atreva-se a descobrir os segredos que esconde este, que foi um território povoado desde a Idade do Idade do Bronze ...',
     url: 'https://exploreid.pt/portfolio-item/percurso-interpretativo-de-pedrogao-pequeno-e-rio-zezere/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/percurso-interpretativo-de-pedrogao-pequeno-e-rio-zezere.png',
     coordinates: [39.902476030288376, -8.130896977912055],
   },
   {
@@ -944,7 +944,7 @@ export const pois: POI[] = [
     description: 'O PR1 PNL Caminho do Xisto de Ferraria de S. João, com 4,9 kms de extensão, atravessa a Aldeia do Xisto e as suas hortas plantadas ao longo da ...',
     url: 'https://exploreid.pt/portfolio-item/pr1-pnl-caminho-do-xisto-de-ferraria-de-s-joao/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/pr1-pnl-caminho-do-xisto-de-ferraria-de-sao-joao.png',
     coordinates: [39.973890883424346, -8.327637683436828],
   },
   {
@@ -954,7 +954,7 @@ export const pois: POI[] = [
     description: 'Apresentando-se como o percurso que mais enaltece as principais atrações naturais de Penela, o PR2 PNL Da Pedra da Ferida é uma ótima ...',
     url: 'https://exploreid.pt/portfolio-item/pr2-pnl-da-pedra-da-ferida-a-loucainha/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/pr2-pnl-da-pedra-da-ferida-a-loucainha.png',
     coordinates: [40.00876197022357, -8.354382836970181],
   },
   {
@@ -964,7 +964,7 @@ export const pois: POI[] = [
     description: 'As Dolinas do Planalto de Sicó são depressões na superfície da terra, mais ou menos  circulares, típicas de zonas cársicas, podendo apresent ...',
     url: 'https://exploreid.pt/portfolio-item/pr8-sre-rota-das-dolinas-e-lagoas-do-planalto-de-sico/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/pr8-sre-rota-das-dolinas-e-lagoas-do-planalto-de-sico.png',
     coordinates: [40.0075738881615, -8.521629330474317],
   },
   {
@@ -974,7 +974,7 @@ export const pois: POI[] = [
     description: 'Arte geológica no seu estado mais puro. Assim se caracteriza o percurso PR2 CDN Rota de Sicó, que ao longo de 23,5 ...',
     url: 'https://exploreid.pt/portfolio-item/pr2-cdn-rota-do-sico/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/pr2-cdn-rota-do-sico.png',
     coordinates: [40.05496831190604, -8.49777044248941],
   },
   {
@@ -984,7 +984,7 @@ export const pois: POI[] = [
     description: 'De braço dado com a margem direita do Rio Arunca, desde os campos de cultivo do arroz, em Vila Nova de Anços, ...',
     url: 'https://exploreid.pt/portfolio-item/pr1-sre-rota-do-arroz/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/pr1-sre-rota-do-arroz.png',
     coordinates: [40.107664370883946, -8.640758665139952],
   },
   {
@@ -994,7 +994,7 @@ export const pois: POI[] = [
     description: 'Sendo uma rota linear com 4,1 kms, o PR4 MCV Caminhando ao longo do Rio é um convite à descoberta de Miranda do Corvo na sua ruralidade ...',
     url: 'https://exploreid.pt/portfolio-item/pr4-mcv-caminhando-ao-longo-do-rio/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/pr4-mcv-caminhando-ao-longo-do-rio.png',
     coordinates: [40.09239638742976, -8.333693913603767],
   },
   {
@@ -1004,7 +1004,7 @@ export const pois: POI[] = [
     description: 'Traçado de extraordinária beleza natural e de recantos únicos, o Percurso Interpretativo do Vale do Ceira percorre uma dezena de pontos de interes ...',
     url: 'https://exploreid.pt/portfolio-item/percurso-interpretativo-do-vale-do-ceira/',
     category: 'percursos e rotas',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/percurso-interpretativo-do-vale-do-ceira.png',
     coordinates: [40.16161875790779, -8.277614262406228],
   },
   // Praias fluviais
@@ -1015,7 +1015,7 @@ export const pois: POI[] = [
     description: 'Caminhando encosta abaixo pelos célebres passadiços que ligam a aldeia ao miradouro, o ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-das-fragas-de-sao-simao/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-das-fragas-de-sao-simao.png',
     coordinates: [39.915963793654804, -8.317080484800936],
   },
   {
@@ -1025,7 +1025,7 @@ export const pois: POI[] = [
     description: 'Ideal para estender a toalha na relva e se perderem longas conversas até ao pôr-do-sol, a Praia Fluvial da Aldeia Ana de Aviz é ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-da-aldeia-ana-de-aviz/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-da-aldeia-ana-de-aviz.png',
     coordinates: [39.91879987141585, -8.28435022232783],
   },
   {
@@ -1035,7 +1035,7 @@ export const pois: POI[] = [
     description: 'Localizada na Aldeia do Xisto do Mosteiro, a Praia Fluvial do Mosteiro é perfeita para um dia bem passado. Servindo como ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-do-mosteiro/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-do-mosteiro.png',
     coordinates: [39.93572609790842, -8.186192058082469],
   },
   {
@@ -1045,7 +1045,7 @@ export const pois: POI[] = [
     description: 'Num cenário digno de filme, onde a diversão e o entusiasmo parecem indiscutivelmente ser os protagonistas, a Praia Fluvial ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-do-cabril/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-do-cabril.png',
     coordinates: [39.92135542037987, -8.13324234846133],
   },
   {
@@ -1055,7 +1055,7 @@ export const pois: POI[] = [
     description: 'Em plena fronteira entre os distritos de Coimbra e Leiria a Praia Fluvial de Mega Fundeira é um lugar encantador. Com vista ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-de-mega-fundeira/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-de-mega-fundeira.png',
     coordinates: [39.985461137440794, -8.121578382562108],
   },
   {
@@ -1065,7 +1065,7 @@ export const pois: POI[] = [
     description: 'Ainda que se encontre a dezenas de quilómetros de distância do mar, prepare-se para muita diversão ao ritmo das ondas. A ...',
     url: 'https://exploreid.pt/portfolio-item/praia-das-rocas/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-das-rocas.png',
     coordinates: [40.004985699168536, -8.206105794959896],
   },
   {
@@ -1075,7 +1075,7 @@ export const pois: POI[] = [
     description: 'Vai  um mergulho refrescante? A Praia Fluvial de Poço Corga, localizada a dois passos do centro de Castanheira de ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-de-poco-corga/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-do-poco-corgo.png',
     coordinates: [40.02469678743608, -8.189470771166812],
   },
   {
@@ -1085,7 +1085,7 @@ export const pois: POI[] = [
     description: 'A subida à Serra do Espinhal guarda lá bem no alto um segredo que cada vez atrai mais curiosos que carregam consigo o desejo ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-da-loucainha/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-da-loucainha.png',
     coordinates: [40.026246396113756, -8.303969330469688],
   },
   {
@@ -1095,7 +1095,7 @@ export const pois: POI[] = [
     description: 'Mostrando-se como um refúgio natural no coração da Serra da Lousã, a Praia Fluvial de Nossa Senhora da Piedade é bem mais do que uma ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-de-nossa-senhora-da-piedade/',
     category: 'praias fluviais',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/praia-fluvial-da-nossa-senhora-da-piedade.png',
     coordinates: [40.10026559777004, -8.234398028301618],
   },
   // Queijarias
@@ -1106,7 +1106,7 @@ export const pois: POI[] = [
     description: 'Amantes de queijo, preparados para ficarem de água na boca? É na Queijeira do Rabaçal que a magia acontece desde ...',
     url: 'https://exploreid.pt/portfolio-item/queijeira-do-rabacal/',
     category: 'queijarias',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/queijeira-rabacal.png',
     coordinates: [40.033941486676866, -8.441721277100543],
     hasMoedaId: true,
   },
@@ -1118,7 +1118,7 @@ export const pois: POI[] = [
     description: 'O Variante é um fantástico restaurante para quem deseja explorar a cozinha regional de Pombal. Num espaço aconchegante e convidativo ...',
     url: 'https://exploreid.pt/portfolio-item/variante/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-variante.png',
     coordinates: [39.912331162978255, -8.63340153429757],
     hasMoedaId: true,
   },
@@ -1129,7 +1129,7 @@ export const pois: POI[] = [
     description: 'Ciao a tutti! Podia ser em Itália, mas estamos em plenas terras lusitanas. No Buda RistoBar, com uma atmosfera acolhedora e perfeita para relaxar ...',
     url: 'https://exploreid.pt/portfolio-item/buda-ristobar/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-buda-ristobar.png',
     coordinates: [39.91431468929731, -8.630132402706176],
     hasMoedaId: true,
   },
@@ -1140,7 +1140,7 @@ export const pois: POI[] = [
     description: 'Conhecido pelos suculentos bifes grelhados, pelos hambúrgueres artesanais, e por uma seleção de tapas deliciosas e irresistíveis, o Hell Bull ...',
     url: 'https://exploreid.pt/portfolio-item/hell-bull-steakhouse-e-tapas/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-hell-bull.png',
     coordinates: [39.917240028295986, -8.622642825658666],
     hasMoedaId: true,
   },
@@ -1151,7 +1151,7 @@ export const pois: POI[] = [
     description: 'Sabores autênticos nos quais a fusão entre o tradicional e o moderno é uma constante. Assim se caracterizam os pratos do Alquimia que ...',
     url: 'https://exploreid.pt/portfolio-item/alquimia/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-alquimia.png',
     coordinates: [39.91194001945675, -8.436394572159159],
     hasMoedaId: true,
   },
@@ -1162,7 +1162,7 @@ export const pois: POI[] = [
     description: 'Construído num antigo lagar de azeite, tal como denuncia a sua denominação, o Terreiro do Lagar é um restaurante rústico aconchegante, que ...',
     url: 'https://exploreid.pt/portfolio-item/terreiro-do-lagar/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-terreiro-do-lagar.png',
     coordinates: [39.93221370069646, -8.406672788719586],
     hasMoedaId: true,
   },
@@ -1173,7 +1173,7 @@ export const pois: POI[] = [
     description: 'Depois de enriquecidas as vistas pelas inúmeras belezas do território, é tempo de recarregar as energias com alimentos frescos da época ...',
     url: 'https://exploreid.pt/portfolio-item/viridi/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-viridi.png',
     coordinates: [40.02831094485218, -8.392689457549151],
     hasMoedaId: true,
   },
@@ -1184,7 +1184,7 @@ export const pois: POI[] = [
     description: 'No coração da formosa Vila de Penela, à distância de uma curta caminhada desde o castelo, o Restaurante D. Sesnando delicia e presenteia ...',
     url: 'https://exploreid.pt/portfolio-item/dom-sesnando/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-sesnando.png',
     coordinates: [40.02934401958823, -8.39103284941295],
     hasMoedaId: true,
   },
@@ -1195,7 +1195,7 @@ export const pois: POI[] = [
     description: 'Mais do que um restaurante, uma experiência. O Restaurante Xisto é um dos espaços gastronómicos que mais se destaca na região ...',
     url: 'https://exploreid.pt/portfolio-item/xisto/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-xisto.png',
     coordinates: [40.02612933688666, -8.304875183511236],
     hasMoedaId: true,
   },
@@ -1206,7 +1206,7 @@ export const pois: POI[] = [
     description: 'O Restaurante Villa Lausana, no centro da bela vila da Lousã, é um refúgio aconchegante onde poderá desfrutar de tesouros gastronómicos ...',
     url: 'https://exploreid.pt/portfolio-item/restaurante-villa-lausana/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-villa-lausana.png',
     coordinates: [40.10883612749666, -8.246055224820937],
     hasMoedaId: true,
   },
@@ -1217,7 +1217,7 @@ export const pois: POI[] = [
     description: 'Num ambiente agradável e intimista, o Restaurante Tinella, em Condeixa-a-Nova, destaca-se pelos seus sabores únicos únicos e irresistíveis ...',
     url: 'https://exploreid.pt/portfolio-item/tinella/',
     category: 'restaurantes',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/restaurante-tinella.png',
     coordinates: [40.11494815548576, -8.503411480825758],
     hasMoedaId: true,
   },
@@ -1229,7 +1229,7 @@ export const pois: POI[] = [
     description: 'Embarque numa viagem no tempo e conheça a Casa Família Oliveira Guimarães, um local abraçado pela história secular ...',
     url: 'https://exploreid.pt/portfolio-item/casa-familia-oliveira-guimaraes/',
     category: 'visitar',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/visitar-casa-familia-oliveira-guimaraes.png',
     coordinates: [40.014791267188514, -8.349552324757152],
     hasMoedaId: true,
   },
@@ -1240,7 +1240,7 @@ export const pois: POI[] = [
     description: 'Não passando despercebido na paisagem, o Templo Ecuménico Universalista destaca-se pela sua arquitetura e beleza, despertando a curiosidade daqueles que o observam no topo da colina, porque...',
     url: 'https://exploreid.pt/portfolio-item/templo-ecumenico-universalista/',
     category: 'visitar',
-    image: '/icons/img_poi/villa-chanca.png',
+    image: 'icons/img_poi/visitar-templo-ecumenico.png',
     coordinates: [40.08165245243552, -8.343846912682249],
     hasMoedaId: true,
   }

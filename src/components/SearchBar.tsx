@@ -61,7 +61,7 @@ export default function SearchBar({
           ${isMobile ? 'h-8 px-3 text-xs' : 'w-full h-10 mt-2 text-sm'}
         `}
       >
-        {isMobile ? 'Buscar' : 'Procurar'}
+        {isMobile ? 'Procurar' : 'Procurar'}
       </button>
     </form>
   );

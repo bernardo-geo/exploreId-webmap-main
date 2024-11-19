@@ -70,7 +70,7 @@ export default function MapSidebar({
               transition-colors rounded-t-xl"
           >
             <span className="text-base font-semibold text-gray-800">
-              Interções no Mapa
+              Interações no Mapa
             </span>
             {isSidebarOpen ? (
               <ChevronDown className="text-gray-600" size={18} />

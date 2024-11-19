@@ -5,7 +5,7 @@ export interface CategoryConfig {
   name: string;
   description: string;
   icon: string;
-  group: 'ponto-interesse' | 'aderente';
+  group: 'ponto-interesse' | 'embaixador';
 }
 
 export const categories: CategoryConfig[] = [
@@ -28,14 +28,14 @@ export const categories: CategoryConfig[] = [
     name: 'Alojamento',
     description: 'Alojamentos',
     icon: '/icons/AL.png',
-    group: 'aderente'
+    group: 'embaixador'
   },
   {
     id: 'animação turística',
     name: 'Animação Turística',
     description: 'Animação Turística',
     icon: '/icons/Animação túristica.png',
-    group: 'aderente'
+    group: 'embaixador'
   },
   {
     id: 'arqueologia',
@@ -77,14 +77,14 @@ export const categories: CategoryConfig[] = [
     name: 'Enoturismo',
     description: 'Enoturismo',
     icon: '/icons/Enoturismo.png',
-    group: 'aderente'
+    group: 'embaixador'
   },
   {
     id: 'espeleologia',
     name: 'Espeleologia',
     description: 'Espeleologia',
     icon: '/icons/Espeleologia.png',
-    group: 'aderente'
+    group: 'embaixador'
   },
   {
     id: 'grutas e buracas',
@@ -161,20 +161,20 @@ export const categories: CategoryConfig[] = [
     name: 'Queijarias',
     description: 'Queijarias',
     icon: '/icons/Queijarias.png',
-    group: 'aderente'
+    group: 'embaixador'
   },
   {
     id: 'restaurantes',
     name: 'Restaurantes',
     description: 'Restaurantes',
     icon: '/icons/restaurantes.png',
-    group: 'aderente'
+    group: 'embaixador'
   },
   {
     id: 'visitar',
     name: 'Visitar',
     description: 'Visitar',
     icon: '/icons/Observar.png',
-    group: 'aderente'
+    group: 'embaixador'
   }
 ];

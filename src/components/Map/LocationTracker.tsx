@@ -43,7 +43,7 @@ export default function LocationTracker() {
         iconAnchor: [12, 12]
       })}
     >
-      <Popup>Você está aqui</Popup>
+      <Popup>Estás aqui</Popup>
     </Marker>
   );
 }

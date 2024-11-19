@@ -9,13 +9,13 @@ interface POIPopupProps {
 }
 
 const formatCategoryName = (category: string): string => {
-  const articles = ['de', 'do', 'da', 'dos', 'das', 'e', 'os', 'as'];
+  const articles = ['De', 'Do', 'da', 'dos', 'das', 'e', 'os', 'as'];
   return category
     .split(' ')
     .map((word, index) => {
       const lowerWord = word.toLowerCase();
       // Keep articles and prepositions in lowercase unless they're the first word
-      return index === 0 || !articles.includes(lowerWord)
+      return index === 1 || !articles.includes(lowerWord)
         ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
         : lowerWord;
     })

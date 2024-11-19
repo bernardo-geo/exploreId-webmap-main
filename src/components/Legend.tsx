@@ -23,7 +23,7 @@ interface LegendProps {
 
 interface CategoryGroupState {
   pontoInteresse: boolean;
-  aderente: boolean;
+  embaixador: boolean;
 }
 
 export default function Legend({
@@ -44,7 +44,7 @@ export default function Legend({
 }: LegendProps) {
   const [expandedGroups, setExpandedGroups] = useState<CategoryGroupState>({
     pontoInteresse: true,
-    aderente: true
+    embaixador: true
   });
 
   const [expandedRouteGroups, setExpandedRouteGroups] = useState<Record<string, boolean>>({});
@@ -65,7 +65,7 @@ export default function Legend({
 
   const categoryGroups = {
     pontoInteresse: categories.filter(cat => cat.group === 'ponto-interesse'),
-    aderente: categories.filter(cat => cat.group === 'aderente')
+    embaixador: categories.filter(cat => cat.group === 'embaixador')
   };
 
   const renderCategoryGroup = (
@@ -155,7 +155,7 @@ export default function Legend({
           </div>
         </div>
         {renderCategoryGroup('Ponto de Interesse', categoryGroups.pontoInteresse, 'pontoInteresse')}
-        {renderCategoryGroup('Aderente', categoryGroups.aderente, 'aderente')}
+        {renderCategoryGroup('Embaixador', categoryGroups.embaixador, 'embaixador')}
       </div>
 
       {/* Routes */}
