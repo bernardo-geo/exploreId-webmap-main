@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ChevronDown, ChevronRight } from 'lucide-react';
 import { POICategory } from '../types/poi';
-import { routeGroups, routeColors } from '../data/routes';
+//import { routeGroups, routeColors } from '../data/routes';
 import { categories } from '../config/categories';
 
 interface LegendProps {
@@ -159,6 +159,7 @@ export default function Legend({
       </div>
 
       {/* Routes */}
+      {/*
       <div className="space-y-2">
         <div className="flex items-center justify-between mb-2">
           <h4 className="text-xs font-bold text-gray-800">Rotas</h4>
@@ -215,6 +216,7 @@ export default function Legend({
           </div>
         ))}
       </div>
+      */}
     </div>
   );
 }

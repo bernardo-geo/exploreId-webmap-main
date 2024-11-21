@@ -1,4 +1,4 @@
-import { RouteGroup } from '../types/poi';
+/*import { RouteGroup } from '../types/poi';
 
 export const routeColors: Record<string, string> = {
   'wine-routes': '#D946EF', // Vibrant purple for wine routes
@@ -24,4 +24,4 @@ export const routeGroups: RouteGroup[] = [
       }
     ]
   }
-];
+];*/
