@@ -1,7 +1,7 @@
 import { type FC } from 'react';
 import { ExternalLink, MapPin, Building2 } from 'lucide-react';
 import { type POI } from '../types/poi';
-import { routeGroups, routeColors } from '../data/routes';
+//import { routeGroups, routeColors } from '../data/routes';
 
 interface POIPopupProps {
   poi: POI;
@@ -25,7 +25,7 @@ const formatCategoryName = (category: string): string => {
 const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${poi.coordinates[0]},${poi.coordinates[1]}`;
 
-  const routeInfo = poi.routeIds?.map(routeId => {
+  /*const routeInfo = poi.routeIds?.map(routeId => {
     const group = routeGroups.find(g => g.routes.some(r => r.id === routeId));
     const route = group?.routes.find(r => r.id === routeId);
     return {
@@ -35,7 +35,7 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
       color: group ? routeColors[group.id] : '',
       url: route?.url || ''
     };
-  });
+  });*/
   
   return (
     <div className="w-[260px] sm:w-[300px] overflow-hidden">
@@ -67,7 +67,7 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
         <p className="text-xs sm:text-sm text-gray-600 mb-3">
           {poi.description}
         </p>
-        
+        {/*
         {routeInfo && routeInfo.length > 0 && (
           <div className="mb-3">
             <h4 className="text-xs font-semibold text-gray-700 mb-2">Rota:</h4>
@@ -100,7 +100,7 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
               ))}
             </div>
           </div>
-        )}
+        )}*/}
 
         <div className="flex flex-col gap-2">
           <a

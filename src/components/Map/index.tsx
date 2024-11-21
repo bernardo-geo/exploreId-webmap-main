@@ -1,4 +1,4 @@
-/*import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import * as L from 'leaflet';
 import { POICategory } from '../../types/poi';
 import { pois } from '../../data/pois';
@@ -182,4 +182,4 @@ export default function Map() {
       />
     </div>
   );
-}*/
+}
