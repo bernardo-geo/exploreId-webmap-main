@@ -9,7 +9,7 @@ export const pois: POI[] = [
     description: 'A aldeia de calcário de Poios destaca-se pelo famoso Vale dos Poios, que exibe um grande canhão fluviocársico ...',
     url: 'https://exploreid.pt/portfolio-item/poios/',
     category: 'aldeias de calcário',
-    image: '/public/img-poi/ponto-interesse/aldeias-calcario/calcario-poios.png',
+    image: './public/img-poi/ponto-interesse/aldeias-calcario/calcario-poios.png',
     coordinates: [39.98914953757288, -8.560566846032716],
   },
   {
