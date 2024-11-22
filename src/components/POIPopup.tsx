@@ -1,6 +1,7 @@
 import { type FC } from 'react';
 import { ExternalLink, MapPin, Building2 } from 'lucide-react';
 import { type POI } from '../types/poi';
+import { categoryIcons } from '../utils/icons';
 //import { routeGroups, routeColors } from '../data/routes';
 
 interface POIPopupProps {
@@ -9,18 +10,19 @@ interface POIPopupProps {
 }
 
 const formatCategoryName = (category: string): string => {
-  const articles = ['De', 'Do', 'da', 'dos', 'das', 'e', 'os', 'as'];
+  const articles = ['de', 'do', 'da', 'dos', 'das', 'e', 'os', 'as'];
   return category
     .split(' ')
     .map((word, index) => {
       const lowerWord = word.toLowerCase();
       // Keep articles and prepositions in lowercase unless they're the first word
-      return index === 1 || !articles.includes(lowerWord)
+      return index === 0 || !articles.includes(lowerWord)
         ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
         : lowerWord;
     })
     .join(' ');
 };
+
 
 const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${poi.coordinates[0]},${poi.coordinates[1]}`;
@@ -45,13 +47,13 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
         className="w-full h-50 object-contain" /*full h-40 object-cover*/
       />
       <div className="p-3 sm:p-4">
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-1">
           <img 
             src={iconUrl}
             alt={poi.category}
             className="w-5 h-5 object-contain"
           />
-          <span className="text-xs font-medium capitalize text-blue-600">
+          <span className="text-xs font-medium text-blue-600">
             {formatCategoryName(poi.category)}
           </span>
         </div>

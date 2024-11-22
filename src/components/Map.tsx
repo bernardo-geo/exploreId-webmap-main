@@ -162,6 +162,7 @@ function Map() {
   const toggleLocationTracking = useCallback(() => {
     setIsTracking(prev => !prev);
   }, []);
+  
 
   return (
     <div id="app-container" className="relative h-screen w-screen overflow-hidden bg-gray-50">
