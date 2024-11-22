@@ -8,7 +8,7 @@ export const categoryIcons: Record<POICategory, L.Icon> = Object.fromEntries(
     new L.Icon({
       iconUrl: category.icon,
       iconSize: [30, 30],
-      iconAnchor: [12, 41],
+      iconAnchor: [15, 28],
       popupAnchor: [1, -34],
       shadowSize: [10, 10]
     })

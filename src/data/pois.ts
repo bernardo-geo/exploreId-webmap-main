@@ -20,7 +20,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/ariques/',
     category: 'aldeias de calcário',
     image: '/img-poi/ponto-interesse/aldeias-calcario/calcario-ariques.png',
-    coordinates: [39.859699, -8.426134],
+    coordinates: [39.85970095511408, -8.42613331654575],
   },
   {
     id: 'calcario-3',
@@ -30,7 +30,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/casais-da-granja/',
     category: 'aldeias de calcário',
     image: '/img-poi/ponto-interesse/aldeias-calcario/calcario-casais-da-granja.png',
-    coordinates: [39.95520944164655, -8.460324169531289],
+    coordinates: [39.954619891677744, -8.460410666839822],
   },
   {
     id: 'calcario-4',
@@ -54,7 +54,7 @@ export const pois: POI[] = [
   },
   {
     id: 'calcario-6',
-    project: 'Penela',
+    project: 'Condeixa',
     name: 'Casmilo',
     description: 'É na tranquilidade do ambiente rural da Serra Senhora do Círculo que a aldeia do Casmilo surge serena e harmoniosa, fascinando ...',
     url: 'https://exploreid.pt/portfolio-item/casmilo/',
@@ -72,7 +72,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/casal-de-sao-simao-2/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-casal-de-sao-simao.png',
-    coordinates: [39.91694252283582, -8.322288984980627],
+    coordinates: [39.916760297670145, -8.322708511639087],
   },
   {
     id: 'xisto-2',
@@ -82,7 +82,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/mosteiro/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-mosteiro.png',
-    coordinates: [39.93945152171791, -8.185046435784997],
+    coordinates: [39.9372143639763, -8.184703751787076],
   },
   {
     id: 'xisto-3',
@@ -92,7 +92,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/ferraria-de-sao-joao/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-ferraria-de-sao-joao.png',
-    coordinates: [39.97425864389989, -8.324114337207325],
+    coordinates: [39.973978914789626, -8.324092027635722],
   },
   {
     id: 'xisto-4',
@@ -102,7 +102,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/gondramaz/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-gondramaz.png',
-    coordinates: [40.06217886925177, -8.272963230756153]
+    coordinates: [40.06204661320437, -8.27287482097318]
   },
   {
     id: 'xisto-5',
@@ -112,7 +112,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/candal/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-candal.png',
-    coordinates: [40.08226321872588, -8.204709061647671]
+    coordinates: [40.08068200894502, -8.203407934797342]
   },
   {
     id: 'xisto-6',
@@ -122,7 +122,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/chiqueiro/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-chiqueiro.png',
-    coordinates: [40.08650666706621, -8.232203429253648]
+    coordinates: [40.08628845282132, -8.232269013161346]
   },
   {
     id: 'xisto-7',
@@ -132,7 +132,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/casal-novo-2/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-casal-novo.png',
-    coordinates: [40.09297890327447, -8.235608846739636]
+    coordinates: [40.09187473021261, -8.23584842828976]
   },
   {
     id: 'xisto-8',
@@ -142,7 +142,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/talasnal/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-talasnal.png',
-    coordinates: [40.09195417339648, -8.22580852118504]
+    coordinates: [40.09171901432184, -8.225780102537676]
   },
   {
     id: 'xisto-9',
@@ -152,7 +152,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/cerdeira/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-cerdeira.png',
-    coordinates: [40.094083747595015, -8.19451355433417]
+    coordinates: [40.0935249549325, -8.195085202411438]
   },
   {
     id: 'xisto-10',
@@ -162,7 +162,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/aigra-velha/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-aigra-velha.png',
-    coordinates: [40.10976529647178, -8.148805280238136]
+    coordinates: [40.108554064640195, -8.149232465569254]
   },
   {
     id: 'xisto-11',
@@ -172,7 +172,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/pena/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-pena.png',
-    coordinates: [40.11137913981347, -8.13501297997985]
+    coordinates: [40.111199341522145, -8.135006019548454]
   },
   {
     id: 'xisto-12',
@@ -182,7 +182,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/aigra-nova/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-aigra-nova.png',
-    coordinates: [40.120935846580174, -8.153793524340177]
+    coordinates: [40.12013032199842, -8.15383329790507]
   },
   {
     id: 'xisto-13',
@@ -192,7 +192,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/comareira/',
     category: 'aldeias do xisto',
     image: '/img-poi/ponto-interesse/aldeias-xisto/xisto-comareira.png',
-    coordinates: [40.127379503476604, -8.153000771902805]
+    coordinates: [ 40.12707824311014, -8.153113309950799]
   },
 
   // Alojamento (IDs 1-3)
@@ -204,7 +204,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/poco-e-meio/',
     category: 'alojamento',
     image: '/img-poi/embaixadores/alojamentos/al-poco-e-meio.png',
-    coordinates: [39.9051903224142, -8.477051637284037],
+    coordinates: [39.90507271407291, -8.477029739037603],
     hasMoedaId: true,
   },
   {
@@ -215,7 +215,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/quintinha-do-casal-ruivo/',
     category: 'alojamento',
     image: '/img-poi/embaixadores/alojamentos/al-quintinha-do-casal-ruivo.png',
-    coordinates: [39.910605979102804, -8.346760728884624],
+    coordinates: [39.91040685473139, -8.34672319933193],
     hasMoedaId: true,
   },
   {
@@ -226,7 +226,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/villa-chanca/',
     category: 'alojamento',
     image: '/img-poi/embaixadores/alojamentos/al-a-villa-chanca.png',
-    coordinates: [40.041846433474056, -8.471386799458067],
+    coordinates: [40.04169950466338, -8.471296349651695],
     hasMoedaId: true,
   },
 
@@ -239,7 +239,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/expertree/',
     category: 'animação turística',
     image: '/img-poi/embaixadores/animacao-turistica/at-expertree.png',
-    coordinates: [40.009139938121535, -8.355661674500153],
+    coordinates: [40.0091009533067, -8.355470448006324],
     hasMoedaId: true
   },
   {
@@ -250,7 +250,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/geonatour/',
     category: 'animação turística',
     image: '/img-poi/embaixadores/animacao-turistica/at-geonatour.png',
-    coordinates: [40.02865575005945, -8.390517827423908],
+    coordinates: [40.02863208298746, -8.390532066367973],
     hasMoedaId: true
   },
 
@@ -275,7 +275,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/baloico-de-alvaiazere/',
     category: 'baloiços',
     image: '/img-poi/ponto-interesse/baloicos/baloico-de-alvaiazere.png',
-    coordinates: [39.830850679439756, -8.406128807728741],
+    coordinates: [39.83084065146714, -8.406128809654415],
   },
   {
     id: 'baloico-2',
@@ -345,7 +345,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/baloico-do-trevim/',
     category: 'baloiços',
     image: '/img-poi/ponto-interesse/baloicos/baloico-do-trevim.png',
-    coordinates: [40.07706091510833, -8.191717668290266],
+    coordinates: [40.07705695452813, -8.19171780931278],
   },
   {
     id: 'baloico-9',
@@ -367,7 +367,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/barragem-da-bouca/',
     category: 'barragens',
     image: '/img-poi/ponto-interesse/barragens/barragem-da-bouca.png',
-    coordinates: [39.85352552744712, -8.2188962],
+    coordinates: [39.85340732618939, -8.218897166996282],
   },
   {
     id: 'barragem-2',
@@ -377,7 +377,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/barragem-do-cabril/',
     category: 'barragens',
     image: '/img-poi/ponto-interesse/barragens/barragem-do-cabril.png',
-    coordinates: [39.918040629214346, -8.132151813490953],
+    coordinates: [39.91784342962231, -8.132185633566374],
   },
   // Cascatas
   {
@@ -469,7 +469,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/castelo-de-germanelo/',
     category: 'castelos',
     image: '/img-poi/ponto-interesse/castelos/castelo-do-germanelo.png',
-    coordinates: [40.0262973123455, -8.430492845171258]
+    coordinates: [40.02606660855366, -8.430254514699293]
   }, 
   {
     id: 'castelo-3',
@@ -489,7 +489,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/castelo-de-soure/',
     category: 'castelos',
     image: '/img-poi/ponto-interesse/castelos/castelo-de-soure.png',
-    coordinates: [40.0568825162006, -8.626307389344959]
+    coordinates: [40.056845062797805, -8.626313308710502]
   }, 
   {
     id: 'castelo-5',
@@ -499,7 +499,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/castelo-da-lousa/',
     category: 'castelos',
     image: '/img-poi/ponto-interesse/castelos/castelo-da-lousa.png',
-    coordinates: [40.100442080748216, -8.235513077070244]
+    coordinates: [40.10041476209205, -8.235505484048025]
   }, 
   {
     id: 'castelo-6',
@@ -556,7 +556,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/buracas-do-casmilo/',
     category: 'grutas e buracas',
     image: '/img-poi/ponto-interesse/grutas-buracas/buracas-do-casmilo.png',
-    coordinates: [40.05483688953813, -8.497728535197314],
+    coordinates: [40.046177483023286, -8.495855283740015],
   },  
   //Miradouros
   {
