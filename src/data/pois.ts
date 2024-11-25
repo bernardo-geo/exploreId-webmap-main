@@ -926,7 +926,7 @@ export const pois: POI[] = [
   // Percursos e rotas
   {
     id: 'percurso-1',
-    project: 'Pedrógão Pequeno',
+    project: 'Pedrógão Grande',
     name: 'Percurso Interpretativo de Pedrógão Pequeno e Rio Zêzere',
     description: 'Embarque nesta aventura e atreva-se a descobrir os segredos que esconde este, que foi um território povoado desde a Idade do Idade do Bronze ...',
     url: 'https://exploreid.pt/portfolio-item/percurso-interpretativo-de-pedrogao-pequeno-e-rio-zezere/',

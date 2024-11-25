@@ -17,7 +17,13 @@ export const baseMaps: BaseMaps = {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   },
   satellite: {
-    url: 'https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}&style=feature:poi|visibility:off&style=feature:poi.business|visibility:off&style=feature:administrative|element:labels|visibility:on&style=feature:road|element:labels|visibility:on',
+    url: 'https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}' +
+      '&style=feature:administrative|visibility:off' +
+      '&style=feature:poi|visibility:off' +
+      '&style=feature:poi.business|visibility:off' +
+      '&style=feature:road|element:labels|visibility:off' +
+      '&style=feature:landscape|visibility:off' +
+      '&style=feature:transit|visibility:off',
     attribution: '&copy; <a href="https://www.google.com/permissions/geoguidelines/">Google Maps</a>'
   }
 };
