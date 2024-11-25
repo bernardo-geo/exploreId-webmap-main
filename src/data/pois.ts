@@ -205,7 +205,6 @@ export const pois: POI[] = [
     category: 'alojamento',
     image: '/img-poi/embaixadores/alojamentos/al-poco-e-meio.png',
     coordinates: [39.90507271407291, -8.477029739037603],
-    hasMoedaId: true,
   },
   {
     id: 'alojamento-2',
@@ -216,7 +215,6 @@ export const pois: POI[] = [
     category: 'alojamento',
     image: '/img-poi/embaixadores/alojamentos/al-quintinha-do-casal-ruivo.png',
     coordinates: [39.91040685473139, -8.34672319933193],
-    hasMoedaId: true,
   },
   {
     id: 'alojamento-3',
@@ -227,7 +225,6 @@ export const pois: POI[] = [
     category: 'alojamento',
     image: '/img-poi/embaixadores/alojamentos/al-a-villa-chanca.png',
     coordinates: [40.04169950466338, -8.471296349651695],
-    hasMoedaId: true,
   },
 
   // Animação Turística
@@ -334,7 +331,7 @@ export const pois: POI[] = [
     description: 'De olhos postos nos terrenos onde das parreiras crescem as uvas para a produção de vinho tinto, branco e rosé ...',
     url: 'https://exploreid.pt/portfolio-item/baloico-da-vinha/',
     category: 'baloiços',
-    image: '/img-poi/ponto-interesse/baloico/baloico-da-vinha.png',
+    image: '/img-poi/ponto-interesse/baloicos/baloico-da-vinha.png',
     coordinates: [40.03500982435366, -8.397147066281411],
   },
   {
@@ -433,7 +430,7 @@ export const pois: POI[] = [
   {
     id: 'cascata-6',
     project: 'Lousã',
-    name: 'Cascata da N. Srª da Piedade',
+    name: 'Cascata da N. Senhora da Piedade',
     description: 'Inserida num cenário paradisíaco, esta cascata deslumbrante é o destino perfeito para quem procura momentos de paz e ...',
     url: 'https://exploreid.pt/portfolio-item/cascata-da-nossa-senhora-da-piedade/',
     category: 'cascatas',
@@ -867,7 +864,7 @@ export const pois: POI[] = [
   {
     id: 'passadico-4',
     project: 'Lousã',
-    name: 'Passadiço da Nossa Srª da Piedade',
+    name: 'Passadiço da Nossa Senhora da Piedade',
     description: 'Este passadiço mágico liga a Vila da Lousã, mais precisamente o Cabo do Soito, ao Complexo Turístico da Senhora da Piedade ...',
     url: 'https://exploreid.pt/portfolio-item/passadicos-nossa-senhora-piedade/',
     category: 'passadiços',
@@ -882,7 +879,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/passadicos-da-volta-da-costa/',
     category: 'passadiços',
     image: '/img-poi/ponto-interesse/passadicos/passadicos-da-volta-da-costa.png',
-    coordinates: [40.091382645594734, -8.336865041555738],
+    coordinates: [40.091308, -8.335062],
   },
   {
     id: 'passadico-6',
@@ -1030,7 +1027,7 @@ export const pois: POI[] = [
   },
   {
     id: 'fluvial-3',
-    project: 'Castanheira de Pêra',
+    project: 'Pedrógão Grande',
     name: 'Praia Fluvial do Mosteiro',
     description: 'Localizada na Aldeia do Xisto do Mosteiro, a Praia Fluvial do Mosteiro é perfeita para um dia bem passado. Servindo como ...',
     url: 'https://exploreid.pt/portfolio-item/praia-fluvial-do-mosteiro/',
@@ -1157,7 +1154,7 @@ export const pois: POI[] = [
   },
   {
     id: 'restaurante-5',
-    project: 'Ansião',
+    project: 'Penela',
     name: 'O Terreiro do Lagar',
     description: 'Construído num antigo lagar de azeite, tal como denuncia a sua denominação, o Terreiro do Lagar é um restaurante rústico aconchegante, que ...',
     url: 'https://exploreid.pt/portfolio-item/terreiro-do-lagar/',
@@ -1185,7 +1182,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/dom-sesnando/',
     category: 'restaurantes',
     image: '/img-poi/embaixadores/restaurantes/restaurante-sesnando.png',
-    coordinates: [40.02934401958823, -8.39103284941295],
+    coordinates: [40.029352, -8.390887],
     hasMoedaId: true,
   },
   {

@@ -119,7 +119,7 @@ export const categories: CategoryConfig[] = [
     name: 'Parque de Campismo',
     description: 'Parque de Campismo',
     icon: '/icons/Parques de Campismo.png',
-    group: 'ponto-interesse'
+    group: 'embaixador'
   },
   {
     id: 'parques temáticos',
