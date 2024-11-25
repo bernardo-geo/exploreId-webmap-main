@@ -76,7 +76,7 @@ export const pois: POI[] = [
   },
   {
     id: 'xisto-2',
-    project: 'Castanheira de Pêra',
+    project: 'Pedrógão Grande',
     name: 'Mosteiro',
     description: 'A Aldeia do Xisto do Mosteiro situa-se no fundo de um vale, ocupando as margens da ribeira de Pera, curso ...',
     url: 'https://exploreid.pt/portfolio-item/mosteiro/',
