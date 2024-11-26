@@ -5,6 +5,20 @@ interface LocationToastProps {
   onClose: () => void;
 }
 
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+      (position) => {
+          console.log("Latitude:", position.coords.latitude);
+          console.log("Longitude:", position.coords.longitude);
+      },
+      (error) => {
+          console.error("Erro ao obter localização:", error.message);
+      }
+  );
+} else {
+  console.error("Geolocalização não é suportada pelo navegador.");
+}
+
 export default function LocationToast({ message, onClose }: LocationToastProps) {
   return (
     <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-[2000] bg-red-50 text-red-700 
