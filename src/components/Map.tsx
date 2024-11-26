@@ -72,7 +72,7 @@ function Map() {
   const [searchQuery, setSearchQuery] = useState('');
   const [showMoedaId, setShowMoedaId] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [selectedBaseMap, setSelectedBaseMap] = useState<keyof typeof baseMaps>('standard');
+  const [selectedBaseMap, setSelectedBaseMap] = useState<keyof typeof baseMaps>('base');
   const mapRef = useRef<L.Map | null>(null);
   const [isTracking, setIsTracking] = useState(false);
   const [locationError, setLocationError] = useState<string | null>(null);
