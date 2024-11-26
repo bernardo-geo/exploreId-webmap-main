@@ -1,0 +1,3 @@
+/*
+  Permissions-Policy: geolocation=(self "https://exploreid-webmap.netlify.app/")
+  Content-Security-Policy: frame-ancestors 'self' https://exploreid-webmap.netlify.app/;
