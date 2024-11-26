@@ -462,7 +462,7 @@ export const pois: POI[] = [
     id: 'castelo-2',
     project: 'Penela',
     name: 'Castelo do Germanelo',
-    description: 'A subida para o Castelo do Germanelo, que se adivinha intensa, tem agora um local de descanso que não vai querer ...',
+    description: 'O Castelo do Germanelo impõe-se sobre o pitoresco vale do Rabaçal, ganhando protagonismo na ...',
     url: 'https://exploreid.pt/portfolio-item/castelo-de-germanelo/',
     category: 'castelos',
     image: '/img-poi/ponto-interesse/castelos/castelo-do-germanelo.png',
