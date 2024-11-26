@@ -7,6 +7,21 @@ export default function LocationTracker() {
   const [position, setPosition] = useState<GeolocationPosition | null>(null);
   const watchId = useRef<number | null>(null);
 
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+        (position) => {
+            console.log("Latitude:", position.coords.latitude);
+            console.log("Longitude:", position.coords.longitude);
+        },
+        (error) => {
+            console.error("Erro ao obter localização:", error.message);
+        }
+    );
+} else {
+    console.error("Geolocalização não é suportada pelo navegador.");
+}
+
+
   useEffect(() => {
     if ('geolocation' in navigator) {
       watchId.current = navigator.geolocation.watchPosition(
