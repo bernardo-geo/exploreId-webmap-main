@@ -2,7 +2,7 @@ import { useState, useCallback, useRef, useEffect} from 'react';
 import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Tooltip, useMap, AttributionControl } from 'react-leaflet';
 import * as L from 'leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
-import { ChevronDown, ChevronUp, Navigation, PanelLeftClose, PanelLeftOpen, PowerOff } from 'lucide-react';
+import { ChevronDown, ChevronUp, Navigation, PanelLeftClose, PanelLeftOpen, /*PowerOff*/ } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 import { POICategory } from '../types/poi';
 import { pois } from '../data/pois';
@@ -97,7 +97,7 @@ function Map() {
 
       if (mapRef.current && moedaIdPOIs.length > 0) {
         const bounds = L.latLngBounds(moedaIdPOIs.map(poi => poi.coordinates));
-        mapRef.current.fitBounds(bounds, { padding: [50, 50] });
+        mapRef.current.fitBounds(bounds, { padding: [10, 10] });
       }
     } else {
       setSelectedCategories(previousCategories);
@@ -143,7 +143,7 @@ function Map() {
 
       if (mapRef.current) {
         const bounds = L.latLngBounds(matchingPOIs.map(p => p.coordinates));
-        mapRef.current.fitBounds(bounds, { padding: [50, 50] });
+        mapRef.current.fitBounds(bounds, { padding: [10, 10] });
       }
     }
   }, [searchQuery]);
@@ -216,7 +216,8 @@ function Map() {
                     alt="Moeda ID" 
                     className="w-6 h-6 object-contain"
                   />
-                  <span className="font-medium">Vê onde utilizar a Moeda ID</span>
+                  <span className="font-medium">Descobre onde utilizar a Moeda ID
+                  </span>
                 </button>
                 <Legend
                   categoryIcons={
@@ -313,7 +314,8 @@ function Map() {
                       alt="Moeda ID" 
                       className="w-6 h-6 object-contain"
                     />
-                    <span className="font-medium">Vê onde utilizar a Moeda ID</span>
+                    <span className="font-medium">Descobre onde utilizar a Moeda ID
+                    </span>
                   </button>
                 </div>
                 <Legend

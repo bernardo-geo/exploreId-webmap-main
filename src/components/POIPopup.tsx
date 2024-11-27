@@ -152,7 +152,7 @@ const formatCategoryName = (category: string): string => {
                 ring-1 ring-amber-200"
             >
               <img src="/icons/ID.png" alt="Moeda ID" className="w-6 h-6" />
-              Utiliza aqui a Moeda ID e obtém 10% de desconto
+              Utiliza a Moeda ID - 10% de desconto
             </a>
           )}
         </div>

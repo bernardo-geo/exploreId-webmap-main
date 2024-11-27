@@ -102,7 +102,8 @@ export default function MapSidebar({
                   alt="Moeda ID" 
                   className="w-6 h-6 object-contain"
                 />
-                <span className="font-medium">Vê onde utilizar a Moeda ID</span>
+                <span className="font-medium">Descobre onde utilizar a Moeda ID
+                </span>
               </button>
               <Legend
                 categoryIcons={categoryIcons}
@@ -169,7 +170,8 @@ export default function MapSidebar({
                     alt="Moeda ID" 
                     className="w-6 h-6 object-contain"
                   />
-                  <span className="font-medium">Vê onde utilizar a Moeda ID</span>
+                  <span className="font-medium">Descobre onde utilizar a Moeda ID
+                  </span>
                 </button>
               </div>
               <Legend
