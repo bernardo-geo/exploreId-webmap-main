@@ -53,16 +53,6 @@ export default function SearchBar({
           </button>
         )}
       </div>
-      <button
-        type="submit"
-        className={`
-          bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 
-          focus:ring-4 focus:ring-blue-200 transition-colors shadow-sm
-          ${isMobile ? 'h-8 px-3 text-xs' : 'w-full h-10 mt-2 text-sm'}
-        `}
-      >
-        {isMobile ? 'Procurar' : 'Procurar'}
-      </button>
     </form>
   );
 }
