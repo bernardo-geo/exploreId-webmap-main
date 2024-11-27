@@ -1,8 +1,8 @@
-import { useState, useCallback, useRef, useEffect } from 'react';
+import { useState, useCallback, useRef, useEffect} from 'react';
 import { MapContainer, TileLayer, Marker, Popup, ZoomControl, Tooltip, useMap, AttributionControl } from 'react-leaflet';
 import * as L from 'leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
-import { ChevronDown, ChevronUp, Navigation, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
+import { ChevronDown, ChevronUp, Navigation, PanelLeftClose, PanelLeftOpen, PowerOff } from 'lucide-react';
 import 'leaflet/dist/leaflet.css';
 import { POICategory } from '../types/poi';
 import { pois } from '../data/pois';
@@ -77,6 +77,7 @@ function Map() {
   const [isTracking, setIsTracking] = useState(false);
   const [locationError, setLocationError] = useState<string | null>(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 678);
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -162,7 +163,7 @@ function Map() {
   const toggleLocationTracking = useCallback(() => {
     setIsTracking(prev => !prev);
   }, []);
-  
+
 
   return (
     <div id="app-container" className="relative h-screen w-screen overflow-hidden bg-gray-50">
@@ -413,7 +414,7 @@ function Map() {
 
           <MarkerClusterGroup
             chunkedLoading
-            maxClusterRadius={10}
+            maxClusterRadius={15}
             disableClusteringAtZoom={25}
             spiderfyOnMaxZoom={true}
             showCoverageOnHover={false}
@@ -423,11 +424,25 @@ function Map() {
                 key={poi.id}
                 position={poi.coordinates}
                 icon={categoryIcons[poi.category]}
+                eventHandlers={{
+                  click: () => {
+                    if (mapRef.current) {
+                      mapRef.current.setView(poi.coordinates, mapRef.current.getZoom(), {
+                        animate: true,
+                      });
+                    }
+                  },
+                }}
               >
-                <Popup className="custom-popup">
+                <Popup className="custom-popup" 
+                autoPan={true}
+                autoPanPadding={[10, 10]} 
+                keepInView={true}
+                 >
                   <POIPopup 
                     poi={poi} 
-                    iconUrl={categoryIcons[poi.category].options.iconUrl || ''} 
+                    iconUrl={categoryIcons[poi.category].options.iconUrl || ''}
+                    /*map={mapRef.current  ? mapRef.current : undefined}*/
                   />
                 </Popup>
                 <Tooltip 

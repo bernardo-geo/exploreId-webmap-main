@@ -405,7 +405,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/cascata-da-ribeira-das-quelhas/',
     category: 'cascatas',
     image: '/img-poi/ponto-interesse/cascatas/cascata-da-ribeira-das-quelhas.png',
-    coordinates: [40.06331362366255, -8.172843064915204]
+    coordinates: [40.0632872018524, -8.172846380622103]
   },
   {
     id: 'cascata-4',
@@ -859,7 +859,7 @@ export const pois: POI[] = [
     url: 'https://exploreid.pt/portfolio-item/passadicos-da-ribeira-das-quelhas/',
     category: 'passadiços',
     image: '/img-poi/ponto-interesse/passadicos/passadicos-da-ribeira-das-quelhas.png',
-    coordinates: [40.06331632839597, -8.1728410499019],
+    coordinates: [40.06313479012411, -8.172880519570066],
   },
   {
     id: 'passadico-4',

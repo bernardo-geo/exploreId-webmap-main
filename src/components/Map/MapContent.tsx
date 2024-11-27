@@ -92,11 +92,24 @@ export default function MapContent({
               key={poi.id}
               position={poi.coordinates}
               icon={categoryIcons[poi.category]}
+              eventHandlers={{
+                click: () => {
+                  if (mapRef.current) {
+                    mapRef.current.setView(poi.coordinates, mapRef.current.getZoom(), {
+                      animate: true,
+                    });
+                  }
+                },
+              }}
             >
-              <Popup className="custom-popup">
+              <Popup className="custom-popup"
+              autoPan={true}
+              autoPanPadding={[10, 10]} 
+              keepInView={true}>
                 <POIPopup 
                   poi={poi} 
                   iconUrl={categoryIcons[poi.category].options.iconUrl || ''} 
+                  /*map={mapRef.current!  ? mapRef.current : undefined}*/
                 />
               </Popup>
               <Tooltip 

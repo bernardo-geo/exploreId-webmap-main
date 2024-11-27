@@ -3,11 +3,25 @@ import { ExternalLink, MapPin, Building2 } from 'lucide-react';
 import { type POI } from '../types/poi';
 import { categoryIcons } from '../utils/icons';
 //import { routeGroups, routeColors } from '../data/routes';
+//import type { Map } from 'leaflet';
 
 interface POIPopupProps {
   poi: POI;
   iconUrl: string;
+  /*map: Map;*/
 }
+
+const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl, /*map*/}) => {
+  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${poi.coordinates[0]},${poi.coordinates[1]}`;
+
+  /*const handlePopupOpen = () => {
+    if (map && poi.coordinates) {
+      // Centraliza o mapa no ponto ao abrir o popup
+      map.setView([poi.coordinates[0], poi.coordinates[1]], map.getZoom(), {
+      animate: true,
+    });
+  }
+};*/
 
 const formatCategoryName = (category: string): string => {
   const articles = ['de', 'do', 'da', 'dos', 'das', 'e', 'os', 'as'];
@@ -23,10 +37,6 @@ const formatCategoryName = (category: string): string => {
     .join(' ');
 };
 
-
-const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
-  const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${poi.coordinates[0]},${poi.coordinates[1]}`;
-
   /*const routeInfo = poi.routeIds?.map(routeId => {
     const group = routeGroups.find(g => g.routes.some(r => r.id === routeId));
     const route = group?.routes.find(r => r.id === routeId);
@@ -40,12 +50,15 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
   });*/
   
   return (
-    <div className="w-[260px] sm:w-[300px] overflow-hidden">
+    <div className="w-[260px] sm:w-[300px] overflow-hidden" 
+    /*onClick={handlePopupOpen}*/>
+      {poi.image && (
       <img
         src={poi.image}
         alt={poi.name}
         className="w-full h-50 object-contain" /*full h-40 object-cover*/
       />
+      )}
       <div className="p-3 sm:p-4">
         <div className="flex items-center gap-2 mb-1">
           <img 
@@ -60,12 +73,14 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
         <h3 className="font-bold text-base sm:text-lg mb-1.5 text-gray-900">
           {poi.name}
         </h3>
+        {poi.image && (
         <div className="flex items-center gap-1.5 mb-2">
           <Building2 size={14} className="text-gray-400" />
           <span className="text-xs font-medium text-gray-500">
             {poi.project}
           </span>
         </div>
+        )}
         <p className="text-xs sm:text-sm text-gray-600 mb-3">
           {poi.description}
         </p>
@@ -105,6 +120,7 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
         )}*/}
 
         <div className="flex flex-col gap-2">
+        {poi.url && (
           <a
             href={poi.url}
             target="_blank"
@@ -115,6 +131,7 @@ const POIPopup: FC<POIPopupProps> = ({ poi, iconUrl }) => {
             Sabe mais
             <ExternalLink size={14} />
           </a>
+        )}
           <a
             href={googleMapsUrl}
             target="_blank"
