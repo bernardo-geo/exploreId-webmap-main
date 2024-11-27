@@ -14,8 +14,8 @@
   padding: 4px 8px !important;
   border-radius: 4px !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
-  font-size: 11px !important;
-  max-width: 90% !important;
+  font-size: 9px !important;
+  max-width: 100% !important;
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
@@ -186,7 +186,7 @@
   border-radius: 4px !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
   font-size: 8px !important;
-  max-width: 90% !important;
+  max-width: 100% !important;
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
