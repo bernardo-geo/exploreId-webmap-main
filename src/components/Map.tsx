@@ -32,7 +32,7 @@ function LocationTracker() {
         },
         {
           enableHighAccuracy: true,
-          timeout: 5000,
+          timeout: 3000,
           maximumAge: 0
         }
       );
@@ -169,7 +169,7 @@ function Map() {
     <div id="app-container" className="relative h-screen w-screen overflow-hidden bg-gray-50">
       {/* Barra de pesquisa no topo (apenas mobile) */}
       {isMobile && (
-        <div className="fixed top-2 left-12 right-12 justify-center rounded-t-xl z-[600] ">
+        <div className="fixed top-2 left-12 right-12 justify-center rounded-t-xl z-[700] ">
           <SearchBar
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
@@ -195,9 +195,9 @@ function Map() {
             >
               
               {isSidebarOpen ? (
-                <ChevronDown className="text-gray-600" size={15} />
+                <ChevronDown className="text-gray-600" size={20} />
               ) : (
-                <ChevronUp className="text-gray-600" size={15} />
+                <ChevronUp className="text-gray-600" size={20} />
               )}
             </button>
 
