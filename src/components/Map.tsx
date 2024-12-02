@@ -97,7 +97,7 @@ function Map() {
 
       if (mapRef.current && moedaIdPOIs.length > 0) {
         const bounds = L.latLngBounds(moedaIdPOIs.map(poi => poi.coordinates));
-        mapRef.current.fitBounds(bounds, { padding: [10, 10] });
+        mapRef.current.fitBounds(bounds, { padding: [25, 25] });
       }
     } else {
       setSelectedCategories(previousCategories);
