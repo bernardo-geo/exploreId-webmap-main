@@ -81,7 +81,7 @@ export default function Legend({
       >
         <span className="text-xs font-medium text-gray-800">{title}</span>
         {expandedGroups[groupKey] ? (
-          <ChevronDown size={14} className="text-gray-500" />
+          <ChevronDown size={14} className="ztext-gray-500" />
         ) : (
           <ChevronRight size={14} className="text-gray-500" />
         )}

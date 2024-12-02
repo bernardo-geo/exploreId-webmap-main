@@ -1,6 +1,6 @@
 import { Navigation } from 'lucide-react';
 import { MapContainer, TileLayer, ZoomControl, AttributionControl } from 'react-leaflet';
-import MarkerClusterGroup from 'react-leaflet-cluster';
+//import MarkerClusterGroup from 'react-leaflet-cluster';
 import { POI } from '../../types/poi';
 import { BaseMaps } from '../../types/map';
 import LocationTracker from './LocationTracker';
@@ -32,7 +32,7 @@ export default function MapContent({
   baseMaps,
   isTracking,
   toggleLocationTracking,
-  filteredPOIs
+  //filteredPOIs
 }: MapContentProps) {
   return (
     <div className={`absolute inset-0 ${isMobile ? 'pb-12' : ''}`}>
@@ -79,17 +79,17 @@ export default function MapContent({
 
         {isTracking && <LocationTracker />}
 
-        <MarkerClusterGroup
+        {/*<MarkerClusterGroup
           chunkedLoading
           maxClusterRadius={10}
           disableClusteringAtZoom={25}
           spiderfyOnMaxZoom={true}
           showCoverageOnHover={false}
         >
-          {filteredPOIs.map((poi) => (
+          {{filteredPOIs.map((poi) => (
             <POIMarker key={poi.id} poi={poi} />
           ))}
-        </MarkerClusterGroup>
+        </MarkerClusterGroup>*/}
       </MapContainer>
     </div>
   );
