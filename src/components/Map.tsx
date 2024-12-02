@@ -191,13 +191,13 @@ function Map() {
             <button
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
               className="w-full bg-white flex justify-center px-40 py-2 hover:bg-gray-50 
-                transition-colors rounded-t-xl"
+                 rounded-t-xl"
             >
               
               {isSidebarOpen ? (
-                <ChevronDown className="text-gray-600" size={14} />
+                <ChevronDown className="text-gray-600" size={12} />
               ) : (
-                <ChevronUp className="text-gray-600" size={14} />
+                <ChevronUp className="text-gray-600" size={12} />
               )}
             </button>
 
