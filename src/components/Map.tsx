@@ -202,7 +202,7 @@ function Map() {
             </button>
 
             {isSidebarOpen && (
-              <div className="px-5 py-0 border-t border-gray-100 overflow-y-auto h-[calc(100%-50px)]">
+              <div className="px-4 py-0 border-t border-gray-100 overflow-y-auto h-[calc(100%-50px)]">
                 
                 <button
                   onClick={() => handleMoedaIdToggle(!showMoedaId)}
