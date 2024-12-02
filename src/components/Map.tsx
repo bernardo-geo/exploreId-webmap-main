@@ -195,9 +195,9 @@ function Map() {
             >
               
               {isSidebarOpen ? (
-                <ChevronDown className="text-gray-600 fixed" size={12} />
+                <ChevronDown className="text-gray-600 fixed" size={14} />
               ) : (
-                <ChevronUp className="text-gray-600 fixed" size={12} />
+                <ChevronUp className="text-gray-600 fixed" size={14} />
               )}
             </button>
 
