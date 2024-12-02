@@ -190,7 +190,7 @@ function Map() {
           <>
             <button
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              className="w-full bg-white flex items-center justify-center px-40 py-1 hover:bg-gray-50 
+              className="w-full bg-white flex justify-center px-40 py-2 hover:bg-gray-50 
                 transition-colors rounded-t-xl"
             >
               

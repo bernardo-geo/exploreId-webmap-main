@@ -27,19 +27,19 @@ interface CategoryGroupState {
 }
 
 export default function Legend({
-  categoryIcons,
+  //categoryIcons,
   selectedCategories,
   toggleCategory,
-  selectedRoutes,
-  toggleRoute,
+  //selectedRoutes,
+  //toggleRoute,
   handleReset,
   baseMaps,
   selectedBaseMap,
   setSelectedBaseMap,
   clearPOIs,
-  clearRoutes,
-  showMoedaId,
-  setShowMoedaId,
+  //clearRoutes,
+  //showMoedaId,
+  //setShowMoedaId,
   isMobile
 }: LegendProps) {
   const [expandedGroups, setExpandedGroups] = useState<CategoryGroupState>({
@@ -47,7 +47,7 @@ export default function Legend({
     embaixador: true
   });
 
-  const [expandedRouteGroups, setExpandedRouteGroups] = useState<Record<string, boolean>>({});
+  //const [expandedRouteGroups, setExpandedRouteGroups] = useState<Record<string, boolean>>({});
 
   const toggleGroup = (group: keyof CategoryGroupState) => {
     setExpandedGroups(prev => ({
@@ -56,12 +56,12 @@ export default function Legend({
     }));
   };
 
-  const toggleRouteGroup = (groupId: string) => {
+ /* const toggleRouteGroup = (groupId: string) => {
     setExpandedRouteGroups(prev => ({
       ...prev,
       [groupId]: !prev[groupId]
     }));
-  };
+  };*/
 
   const categoryGroups = {
     pontoInteresse: categories.filter(cat => cat.group === 'ponto-interesse'),
