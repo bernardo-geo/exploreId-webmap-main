@@ -23,6 +23,7 @@ export type POICategory =
   | 'queijarias'
   | 'restaurantes'
   | 'visitar'
+  | 'natal'
   ;
 
 export interface Route {
