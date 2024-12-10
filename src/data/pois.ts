@@ -5,7 +5,7 @@ export const pois: POI[] = [
     project: 'Natal',
     name: 'Feliz Natal e Boas Entradas',
     description: 'Que este Natal seja repleto de paz, alegria e momentos inesquecíveis junto das pessoas que mais ama. Que o Ano Novo traga novos desafios, conquistas e muita prosperidade. Obrigado por fazer parte da nossa jornada!',
-    //url: 'https://exploreid.pt/portfolio-item/feliz-natal-e-boas-entradas/',
+    url: 'https://exploreid.pt/portfolio-item/feliz-natal-e-boas-entradas/',
     category: 'natal',
     image: '/img-poi/embaixadores/feliz natal/Feliz Natal.jpg',
     coordinates: [66.53927258951576, 25.79693454013848],
