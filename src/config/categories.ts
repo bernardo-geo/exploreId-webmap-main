@@ -9,14 +9,6 @@ export interface CategoryConfig {
 }
 
 export const categories: CategoryConfig[] = [
-  // Eliminar depois
-  {
-    id: 'natal',
-    name: 'Natal',
-    description: 'Natal',
-    icon: '/icons/Icone pai natal.png',
-    group: 'ponto-interesse'
-  },
   {
     id: 'aldeias de calcário',
     name: 'Aldeias de Calcário',
