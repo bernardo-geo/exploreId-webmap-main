@@ -13,7 +13,7 @@ export const categories: CategoryConfig[] = [
     id: 'aldeias de calcário',
     name: 'Aldeias de Calcário',
     description: 'Aldeia de calcário',
-    icon: '/icons/icone-aldeias-de-calcário.png',
+    icon: '/icons/icone-aldeias-de-calcario.png',
     group: 'ponto-interesse'
   },
   {
